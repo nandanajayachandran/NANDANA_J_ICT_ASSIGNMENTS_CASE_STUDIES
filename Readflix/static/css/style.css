@@ -1,0 +1,731 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+h1 h2 h3 h4 {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: indigo;
+
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: indigo;
+    padding: 5px;
+}
+
+h3 {
+    margin-top: 0;
+    padding: 20px;
+    font-size: 1.5em;
+    color: indigo;
+}
+
+p {
+    margin-top: 20%;
+    font-size: 1.3em;
+
+}
+
+
+
+
+.toggle {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.toggle-icon {
+    color: goldenrod;
+}
+
+.toggle-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+:root {
+    --text-color-light: #333;
+    /* Default light mode text color */
+    --text-color-dark: #fff;
+    /* Dark mode text color */
+    --background-color-light: #fff;
+    /* Default light mode background color */
+    --background-color-dark: #333;
+    /* Dark mode background color */
+    --icon-color-light: goldenrod;
+    /* Default light mode icon color */
+    --icon-color-dark: white;
+    /* Dark mode icon color */
+
+}
+
+body.dark-mode nav ul li a {
+    color: var(--text-color-dark);
+}
+
+body.dark-mode nav {
+    color: var(--text-color-dark);
+    background-color: var(--background-color-dark);
+}
+
+body {
+    color: var(--text-color-light);
+    background-color: var(--background-color-light);
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+body.dark-mode {
+    color: var(--text-color-dark);
+    background-color: var(--background-color-dark);
+}
+
+body.dark-mode h1 {
+    color: var(--text-color-dark);
+}
+
+body.dark-mode h2 {
+    color: var(--text-color-dark);
+}
+
+body.dark-mode h3 {
+    color: var(--text-color-dark);
+}
+
+body.dark-mode p {
+    color: var(--text-color-dark);
+}
+
+body.dark-mode #top p {
+    color: var(--text-color-dark);
+}
+
+body.dark-mode div h1 span {
+    color: var(--text-color-dark);
+}
+
+body.dark-mode .copyright {
+    color: var(--text-color-dark);
+}
+
+body.dark-mode .chat-bar-input-block {
+    color: var(--text-color-dark);
+    background-color: var(--background-color-dark);
+}
+
+body.dark-mode .collapsible {
+    color: var(--text-color-light);
+    background-color: var(--background-color-light);
+}
+
+
+body.dark-mode .full-chat-block {
+    color: var(--text-color-dark);
+    background-color: var(--background-color-dark);
+}
+
+body.dark-mode .userText span {
+    color: var(--text-color-light);
+    background-color: var(--background-color-light);
+}
+
+body.dark-mode .botText span {
+    color: var(--text-color-light);
+    background-color: var(--background-color-light);
+}
+
+
+.toggle.active .toggle-ball {
+    background-color: white;
+    transform: translateX(-20px);
+}
+
+
+
+section {
+    width: 100%;
+    height: 100vh;
+
+}
+
+section nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgb(171, 80, 236);
+    background: #fff;
+    position: absolute;
+    left: 0;
+    z-index: 100;
+
+}
+
+section nav .logo img {
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section nav ul {
+    list-style: none;
+}
+
+section nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+section nav li a:hover {
+    color: rgb(171, 80, 236);
+}
+
+
+section .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+}
+
+section .main h1 {
+    position: relative;
+    font-size: 2.5em;
+    top: 100px;
+    left: 25px;
+}
+
+section .main h1 span {
+    color: rgb(103, 33, 153);
+}
+
+section .main p {
+    width: 550px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    padding: 0 8px;
+}
+
+
+section .main .main_img img {
+    width: 650px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 30%;
+}
+
+
+#top-section {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+}
+
+
+#top-movie-content {
+    align-items: center;
+    height: 50vh;
+    width: 50%;
+    text-align: center;
+    display: inline;
+}
+
+#top-movie-img {
+
+    width: 250px;
+}
+
+
+#top-movie-desc {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1em;
+    padding: 0 20px 0 20px;
+
+
+}
+
+#top-movie-button {
+    border: 2px solid rgb(65, 11, 65);
+    background-color: rgb(91, 39, 128);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+#top-book-content {
+    align-items: center;
+    height: 50vh;
+    width: 50%;
+    text-align: center;
+    display: inline;
+
+
+}
+
+#top-book-img {
+    align-items: center;
+    width: 250px;
+}
+
+
+#top-book-desc {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1em;
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+
+
+}
+
+#top-book-button {
+    align-items: center;
+    border: 2px solid rgb(65, 11, 65);
+    background-color: rgb(91, 39, 128);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+
+
+
+}
+
+.movie-container {
+    display: inline;
+    align-items: center;
+    color: white;
+    width: 100%;
+    padding: 0 20px;
+
+}
+
+.book-container {
+    display: inline;
+    align-items: center;
+    color: white;
+    width: 100%;
+    padding: 0 20px;
+
+
+}
+
+
+.movie-list {
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    margin-left: 80px;
+
+}
+
+.movie-list-title {
+    text-align: center;
+    text-decoration: solid;
+    color: indigo;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.movie-list-item {
+    position: relative;
+    margin-right: 50px;
+
+
+}
+
+.movie-list-item:hover .movie-list-item-image {
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+}
+
+.movie-list-item:hover .movie-list-item-title,
+.movie-list-item:hover .movie-list-item-button {
+    opacity: 1;
+
+}
+
+
+.movie-list-item-image {
+    padding: 25px 0;
+    transition: all 1s ease-in-out;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.movie-list-item-title {
+    text-align: center;
+    border: black;
+    background-color: lightcoral;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 150px;
+    padding: 0 10px;
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    opacity: 0;
+
+
+}
+
+.movie-list-item-button {
+    border: 2px solid rgb(65, 11, 65);
+    background-color: rgb(91, 39, 128);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    opacity: 0;
+
+}
+
+
+.book-list {
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    margin-left: 80px;
+}
+
+.book-list-title {
+    text-align: center;
+    text-decoration: solid;
+    color: indigo;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.book-list-item {
+    position: relative;
+    margin-right: 50px;
+    align-items: center;
+
+}
+
+.book-list-item:hover .book-list-item-image {
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+}
+
+.book-list-item:hover .book-list-item-title,
+.book-list-item:hover .book-list-item-button {
+    opacity: 1;
+
+}
+
+
+.book-list-item-image {
+    padding: 25px 0;
+    transition: all 1s ease-in-out;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.book-list-item-title {
+    text-align: center;
+    border: black;
+    background-color: lightcoral;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 150px;
+    padding: 0 10px;
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    opacity: 0;
+
+
+}
+
+.book-list-item-button {
+    border: 2px solid rgb(65, 11, 65);
+    background-color: rgb(91, 39, 128);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 36%;
+    opacity: 0;
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(93, 36, 133);
+    border-radius: 10px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #282828;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.square {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 0px !important;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+
+.heading {
+    margin-top: 20px;
+    font-size: 38px;
+    color: rgb(107, 28, 163);
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-list {
+    padding: 0;
+}
+
+.p-list li {
+    display: block;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+
+.l-list {
+    padding: 0;
+}
+
+.l-list li {
+    display: block;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+
+.contact {
+    padding: 0;
+}
+
+.contact li {
+    display: block;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media li {
+    display: inline-flex;
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.copy {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:767px) {
+    .heading {
+        text-align: left;
+        font-size: 1em;
+    }
+
+    h1,
+    h2,
+    h3 {
+        text-align: left;
+        padding: 0 20px;
+        font-size: 1.3em;
+        margin-left: 5px;
+    }
+
+    .main {
+        text-align: left;
+        padding: 20px;
+        margin-left: 15px;
+        display: flex;
+
+    }
+
+    .main p {
+        text-align: left;
+        font-size: 1em;
+        padding: 20px;
+        margin-left: 10px;
+        
+    }
+
+    #top {
+        width: 100%;
+        margin-bottom: 130%;
+        padding: 20px;
+        
+    }
+
+
+    .movie-container {
+        width: 100%;
+        text-align: left;
+        font-size: 0.7em;
+        text-align: left;
+    }
+
+    .book-container {
+        width: 100%;
+        text-align: left;
+        font-size: 0.7em;
+        text-align: left;
+    }
+
+    .movie-list,
+    .book-list,
+    .movie-list-item,
+    .book-list-item {
+        margin: 10px;
+    }
+
+
+
+
+
+    .movie-list-item-button,
+    .book-list-item-button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .square {
+        padding: 0px 30px !important;
+        margin-top: 10px !important;
+    }
+
+    .p-list li,
+    .l-list li,
+    .contact li {
+        text-align: left;
+    }
+
+    .social-media {
+        padding-left: 0 !important;
+        align-items: left;
+    }
+
+    .social-media li {
+        margin: 5px;
+        align-items: left;
+    }
+
+    .copy {
+        margin-bottom: 10%;
+    }
+}

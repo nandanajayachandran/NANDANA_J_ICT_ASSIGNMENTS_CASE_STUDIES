@@ -1,0 +1,4184 @@
+version: "3.1"
+nlu:
+  - lookup: book_author
+    examples: |
+      - Marilynne Robinson
+      - Charles Osborne
+      - Agatha Christie
+      - Stephen R. Donaldson
+      - Sidney Sheldon
+      - Clive Staples Lewis
+      - Richard Hall
+      - Robin Hobb
+      - Janny Wurts
+      - Terence Hanbury White
+      - Raymond E. Feist
+      - Joel Rosenberg
+      - S.M. Stirling
+      - Philippa Gregory
+      - Susan Howatch
+      - Patrick O'Brian
+      - Kim Stanley Robinson
+      - Michael Marshall Smith
+      - Tess Gerritsen
+      - Jessica Adams
+      - Chris Manby
+      - Fiona Walker
+      - Joan Didion
+      - Amy Tan
+      - Thomas L. Friedman
+      - Frank McCourt
+      - Mark Haddon
+      - Peter Sutton
+      - Joan Aiken
+      - Peter Straub
+      - John Ronald Reuel Tolkien
+      - Jude Fisher
+      - Douglas Coupland
+      - Louis Menand
+      - Diana Wynne Jones
+      - Patricia McCormick
+      - Gary Russell
+      - Alan Lee
+      - Garth Nix
+      - Daniel Pinchbeck
+      - Michael Chabon
+      - Carolyn Meyer
+      - Tony Parsons
+      - Jonathan Franzen
+      - Merlin Holland
+      - Dr. Seuss
+      - Tim O'Brien
+      - J.R.R. Tolkien
+      - Ted Nasmith
+      - Barney Tobey
+      - Louis Sachar
+      - Cecelia Ahern
+      - Edward P. Jones
+      - Robin Sharma
+      - William S. Burroughs
+      - Henry Miller
+      - Annie Proulx
+      - F. Scott Fitzgerald
+      - Ernest Hemingway
+      - William Strunk
+      - Elwyn Brooks White
+      - Philip Wheelwright
+      - Lani Guinier
+      - Aldon D. Morris
+      - Richard E. Neustadt
+      - Jacquelyn Reinach
+      - Richard Hefter
+      - Wilson Rawls
+      - Avi
+      - Doreen Cronin
+      - Louisa May Alcott
+      - James Bernardin
+      - Thomas C. Foster
+      - Terry Pratchett
+      - Peter Watson
+      - Meg Cabot
+      - Aldous Huxley
+      - James Shapiro
+      - Marian Keyes
+      - Michael Crichton
+      - Milan Kundera
+      - Peggy Parish
+      - Clive Barker
+      - Paulo Coelho
+      - Alan R. Clarke
+      - Moebius
+      - John Gray
+      - Julie Andrews Edwards
+      - Jamie Lee Curtis
+      - Shel Silverstein
+      - Amy Cotler
+      - William Anderson
+      - Robin Quivers
+      - Mary Stewart
+      - Barbara Kingsolver
+      - Dan Simmons
+      - Chip Kidd
+      - Colleen McCullough
+      - Joe Haldeman
+      - Elizabeth Lowell
+      - Neal Stephenson
+      - Neil Gaiman
+      - Bernard Lewis
+      - Mark Twain
+      - Mary Kay Andrews
+      - Sid Fleischman
+      - Clayton M. Christensen
+      - Lee Charles Kelley
+      - Will Ferguson
+      - Stanley Bing
+      - Gabriel Garcia Marquez
+      - Justin Kaplan
+      - Jenna Jameson
+      - Neil Strauss
+      - Richard Wright
+      - Gavin Menzies
+      - Thomas Kinkade
+      - Erika Tamar
+      - Sam Weller
+      - Gregory Maguire
+      - C. S. Lewis
+      - Isaac Asimov
+      - Katrina Kittle
+      - Jim Collins
+      - Jerry I. Porras
+      - Christopher Moore
+      - Roger Zelazny
+      - Simon Winchester
+      - Kim Harrison
+      - Charles Bukowski
+      - Laura Schlessinger
+      - Shirley Rousseau Murphy
+      - Patrick Robinson
+      - Don Wolfe
+      - Janet Evanovich
+      - Dennis Lehane
+      - Herman Melville
+      - Robert M. Pirsig
+      - Michael Korda
+      - Nicholas A. Basbanes
+      - Suzanne Enoch
+      - James Hilton
+      - Christopher Hitchens
+      - Karen Armstrong
+      - Marcus J. Borg
+      - Elisabeth Elliot
+      - Sue Monk Kidd
+      - Thomas Merton
+      - Johnny Cash
+      - Joe Simpson
+      - Jennifer Frantz
+      - Katherine Paterson
+      - Francesca Lia Block
+      - Peter Abrahams
+      - Karen Cushman
+      - Robin McKinley
+      - Esther Perel
+      - Kevin Walsh
+      - Marilyn Johnson
+      - Kaye Gibbons
+      - Elizabeth Noble
+      - Michael F Roizen
+      - Mehmet C Oz
+      - R.L. Stine
+      - Lynsay Sands
+      - Margaret Wise Brown
+      - Ray Bradbury
+      - Rene Steinke
+      - Editors of TIME For Kids
+      - Charles Todd
+      - Jonathan Safran Foer
+      - Jorge Cruise
+      - Mark Bowden
+      - Otto Penzler
+      - Thomas H. Cook
+      - Trudi Canavan
+      - Joyce Carol Oates
+      - John Shea
+      - Robert Hutchinson
+      - Lawrence Block
+      - Steve Turner
+      - Pauline Baynes
+      - Oscar Hijuelos
+      - Eleanor Herman
+      - Camille Kingsolver
+      - Steven L. Hopp
+      - Kelley Armstrong
+      - Lori Handeland
+      - Russell Banks
+      - E. B. White
+      - Bernard Chang
+      - Laura Ingalls Wilder
+      - Liz Goldwyn
+      - Matt Ridley
+      - Jess Walter
+      - Anthony Bourdain
+      - James Hillman
+      - Thomas Pynchon
+      - Annie Dillard
+      - Jiddu Krishnamurti
+      - Harriet Lerner
+      - Zora Neale Hurston
+      - David Bradley
+      - Bill Bryson
+      - Howard Zinn
+      - Richard Shenkman
+      - Isabel Allende
+      - Thomas Moore
+      - Joseph Gies
+      - Denis Johnson
+      - John Colapinto
+      - Carlos Castaneda
+      - Thomas Wolfe
+      - Lou Marinoff
+      - Soun Vannithone
+      - Homer
+      - Robert Cullen
+      - Michela Wrong
+      - Jay Parini
+      - Jeffrey Ford
+      - Alan Lightman
+      - David Edmonds
+      - John Eidinow
+      - Larry Koenig
+      - Irvin Yalom
+      - Kuki Gallmann
+      - Charles Neider
+      - Betty Smith
+      - John O'Donohue
+      - Colin McGinn
+      - Steven Pinker
+      - Armistead Maupin
+      - Barbara Ehrenreich
+      - Norman Davies
+      - Jonathan Kozol
+      - Richard Powers
+      - Amy Hempel
+      - Arundhati Roy
+      - James Davidson
+      - Marilyn Manson
+      - Tommy Lee
+      - Vince Neil
+      - Nikki Sixx
+      - Mick Mars
+      - Aaron Asher
+      - Poppy Z. Brite
+      - Margaret Weis
+      - Tracy Hickman
+      - Denise Little
+      - Iain Banks
+      - Tananarive Due
+      - Orson Scott Card
+      - Stuart Woods
+      - Clement Hurd
+      - Lauren Bacall
+      - Erich Fromm
+      - Corinne Hofmann
+      - Paul Kengor
+      - Paul Bowles
+      - Allen Ginsberg
+      - Barry Miles
+      - Cait London
+      - Claudia Carroll
+      - Jodi Picoult
+      - Carl Zimmer
+      - Frank Warren
+      - Harper Lee
+      - Zecharia Sitchin
+      - Ludwig Wittgenstein
+      - Robert A. Johnson
+      - Huston Smith
+      - Epictetus
+      - Rosita Arvigo
+      - Nadine Epstein
+      - Madeleine L'Engle
+      - Richard P. Martin
+      - Hugh Honour
+      - Maud Hart Lovelace
+      - Rose Wilder Lane
+      - Bill Brittain
+      - Jane Leslie Conly
+      - Laurence Yep
+      - Lois Lenski
+      - Melissa Wiley
+      - Walter Dean Myers
+      - Cynthia Rylant
+      - Jim LaMarche
+      - Heather Henson
+      - Syd Hoff
+      - Carolyn Strom Collins
+      - Rachel Carson
+      - Ken Blanchard
+      - Terry Waghorn
+      - Kerry Patterson
+      - Joseph Grenny
+      - Ron McMillan
+      - Al Switzler
+      - Leil Lowndes
+      - R. de Roussy de Sales
+      - Jennifer Hendricks
+      - Paola Nanni-Tate
+      - Kevin Mandia
+      - Chris Prosise
+      - Lynne Ann DeSpelder
+      - Albert Lee Strickland
+      - Tacitus
+      - Spencer Johnson
+      - Edward De Bono
+      - Anthony McReavy
+      - Ian Stewart
+      - Jack Sidney Cohen
+      - John Grisham
+      - Richard Phillips Feynman
+      - Ralph Leighton
+      - Kurt Vonnegut
+      - Anne Rice
+      - David Malouf
+      - Richard Russo
+      - Chuck Palahniuk
+      - Kurban Said
+      - Roddy Doyle
+      - William Styron
+      - Martin Amis
+      - Thomas Harris
+      - Philip Roth
+      - Terry Brooks
+      - George Lucas
+      - Matthew Woodring Stover
+      - Troy Denning
+      - Salman Rushdie
+      - Joseph O'Connor
+      - Richard Bach
+      - Ha Jin
+      - Umberto Eco
+      - Franz Kafka
+      - Alice Hoffman
+      - Ian McEwan
+      - Russell Hoban
+      - Herbert Asbury
+      - Richard Brautigan
+      - Manuel Rivas
+      - Haruki Murakami
+      - Winfried Georg Sebald
+      - Raymond Carver
+      - Joseph Delaney
+      - Sebastian Faulks
+      - Elizabeth Berg
+      - Karin Slaughter
+      - Anthony Burgess
+      - Timothy Zahn
+      - Robin Norwood
+      - Georgette Heyer
+      - Sébastien Japrisot
+      - Joseph Heller
+      - Graham Greene
+      - Arthur Koestler
+      - Maeve Binchy
+      - George Saunders
+      - Italo Calvino
+      - Alan Paton
+      - Diana Gabaldon
+      - Don DeLillo
+      - James Edward Keogh
+      - John Shapley Gray
+      - Walter J. Savitch
+      - Gary A. Yukl
+      - Michael D. Lyman
+      - Gary W. Potter
+      - Heidi Hayes Jacobs
+      - Pearson Prentice Hall
+      - Kate Kinsella
+      - Michal L. LeVasseur
+      - Eric Chaisson
+      - Stephen McMillan
+      - Darlene Clark Hine
+      - William C. Hine
+      - Stanley Harrold
+      - John Fleming
+      - Stephen Minot
+      - Frank M. Carrano
+      - Elliot Aronson
+      - Timothy D. Wilson
+      - Robin M. Akert
+      - Roald Dahl
+      - Iris Murdoch
+      - T. Coraghessan Boyle
+      - Patrick Süskind
+      - William T. Vollmann
+      - Paul Auster
+      - Irvin D. Yalom
+      - John Berger
+      - Sven Blomberg
+      - Chris Fox
+      - Michael Dibb
+      - Richard Hollis
+      - Emmanuel Le Roy Ladurie
+      - Michel Foucault
+      - Wallace Stegner
+      - Wallace Earle Stegner
+      - Ken Kesey
+      - Bill Buford
+      - Michael M. Lewis
+      - James Campbell
+      - John Steinbeck
+      - James Joyce
+      - Dorothy Parker
+      - Lawrence Durrell
+      - Reinaldo Arenas
+      - Andrew Hurley
+      - Gabriel García Márquez
+      - Gregory Rabassa
+      - Robert Mason
+      - Ray Monk
+      - Lyn MacDonald
+      - Michel de Montaigne
+      - Mulk Anand
+      - William Gaddis
+      - Shiva Naipaul
+      - Primo Levi
+      - Luigi Pirandello
+      - Saul Bellow
+      - Arthur Miller
+      - Georges Perec
+      - Richard Wilhelm
+      - Cary F. Baynes
+      - John Blofeld
+      - Georg Feuerstein
+      - Kahlil Gibran
+      - John Walbridge
+      - Malcolm Godwin
+      - Jack Kerouac
+      - Ann Charters
+      - Pat Barker
+      - Jerome David Salinger
+      - Gerald Clifford Weales
+      - Robert Scholes
+      - A. Walton Litz
+      - Laurie Garrett
+      - Sue Birtwistle
+      - Susie Conklin
+      - Deirdre Bair
+      - Gore Vidal
+      - Bryce Courtenay
+      - Jean Rhys
+      - Mark Kurlansky
+      - J. M. Coetzee
+      - Zadie Smith
+      - Jane Green
+      - Douglas Stone
+      - Bruce Patton
+      - Sheila Heen
+      - Ruth L. Ozeki
+      - Edwidge Danticat
+      - Pelham Grenville Wodehouse
+      - Malcolm Pasley
+      - Robert Templer
+      - Rebecca Solnit
+      - Jacquelyn Mitchard
+      - Alan Hollinghurst
+      - Jorge Luis Borges
+      - Lan Samantha Chang
+      - Robert Irwin
+      - Nick Hornby
+      - Peter Mayle
+      - Raymond Rosenthal
+      - Frank Kermode
+      - Stuart McLean
+      - Rumer Godden
+      - Astrid Lindgren
+      - Louis S. Glanzman
+      - Terry Jones
+      - Michael Foreman
+      - William Sleator
+      - Barthe DeClements
+      - Quentin Blake
+      - Edith Nesbit
+      - E. Nesbit
+      - Jean Van Leeuwen
+      - S. E. Hinton
+      - William Blake
+      - Geoffrey Chaucer
+      - Horace Walpole
+      - William Beckford
+      - Mary Shelley
+      - Oscar Wilde
+      - Friedrich Nietzsche
+      - Thomas Hardy
+      - Wilkie Collins
+      - Charles Dickens
+      - Saint Thomas (Aquinas)
+      - Ralph McInerny
+      - Ralph M. McInerny
+      - Walter Scott
+      - Jerome Klapka Jerome
+      - Daniel Defoe
+      - George Bernard Shaw
+      - Stephen Crane
+      - Dante Alighieri
+      - Johann Goethe
+      - Aeschylus
+      - Philip Vellacott
+      - Jean Racine
+      - A. Hatto
+      - Aristophanes
+      - Denis Diderot
+      - Fiodor Mijaïlovich Dostoevskiï
+      - Fyodor Dostoyevsky
+      - Honore Balzac
+      - Ivan Turgenev
+      - Honoré de Balzac
+      - Cornelius Tacitus
+      - Francois Voltaire
+      - Arthur R. V. Cooper
+      - Plato
+      - Stendhal
+      - Confucius
+      - Victor Hugo
+      - John Sturrock
+      - Иван Сергеевич Тургенев
+      - Leonard Shapiro
+      - Émile Zola
+      - Aleksandr Sergeevich Pushkin
+      - Charles Johnston
+      - Norman Denny
+      - Francois Rabelais
+      - Michael Andrew Screech
+      - Soren Kierkegaard
+      - Michel Montaigne
+      - Christopher Gill
+      - Aristotle
+      - Malcolm Heath
+      - Euripides
+      - John N. Davie
+      - R. B. Rutherford
+      - Alexis Tocqueville
+      - Gerald Bevan
+      - Isaac Kramnick
+      - Boethius
+      - Victor Watts
+      - Ovid
+      - David Raeburn
+      - Gustave Flaubert
+      - Robert Baldick
+      - Geoffrey Wall
+      - Roger Whitehouse
+      - Nikolay Gogol
+      - Alan H. Sommerstein
+      - Jonathan Barnes
+      - Alexandre Dumas Pere
+      - Augustine
+      - Henry Scowcroft Bettenson
+      - Gillian Rosemary Evans
+      - Herodotus
+      - Miguel de Cervantes Saavedra
+      - Sir Henry Desmond Pritchard Lee
+      - Leo Tolstoy
+      - Richard Pevear
+      - Suetonius
+      - Hugh Tredennick
+      - Virgil
+      - David Barrett
+      - Alexandre Dumas
+      - Robert McCloskey
+      - Ilon Wikland
+      - Emily Brontë
+      - Jane Austen
+      - Bram Stoker
+      - William Shakespeare
+      - Kathleen Parkinson
+      - Joanne Harris
+      - Helen Fielding
+      - Nathaniel Philbrick
+      - Ian Fleming
+      - Paul Davies
+      - Mary Roach
+      - Clive Cussler
+      - Craig Dirgo
+      - Jamie Oliver
+      - Brian Greene
+      - Dave Eggers
+      - Peter Holland
+      - Art Spiegelman
+      - Julie Orringer
+      - Adrian Poole
+      - Michael Moore
+      - Marcel Proust
+      - Knut Hamsun
+      - Donald Barthelme
+      - Sigrid Undset
+      - Virginia Woolf
+      - John Kennedy Toole
+      - Eliot Weinberger
+      - Vladimir Nabokov
+      - Vladimir Vladimirovich Nabokov
+      - Edward Morgan Forster
+      - Anais Nin
+      - George Orwell
+      - Elspeth Huxley
+      - Jaroslav Hašek
+      - Eugène Ionesco
+      - Albert Camus
+      - Gertrude Stein
+      - Jean-Paul Sartre
+      - Federico García Lorca
+      - Michael Dewell
+      - Carmen Zapata
+      - James Baldwin
+      - Truman Capote
+      - H. P. Lovecraft
+      - Isak Dinesen
+      - Edward W. Said
+      - Humphrey Carpenter
+      - Benjamin Lebert
+      - Lloyd Alexander
+      - Ernest William Hornung
+      - Mary Wollstonecraft Shelley
+      - George Eliot
+      - Henry James
+      - William Makepeace Thackeray
+      - H.G. Wells
+      - Pankaj Mishra
+      - Gwyn Hyman Rubio
+      - David Allen
+      - Jasper Fforde
+      - Stefan Fatsis
+      - Antony Beevor
+      - Elizabeth Gilbert
+      - Tess Uriza Holthe
+      - Garrison Keillor
+      - Nancy MacDonell Smith
+      - Nancy MacDonell
+      - Brian Hall
+      - Norman Sherry
+      - Andrea Camilleri
+      - Raymond Queneau
+      - Brian Jacques
+      - David Elliot
+      - Sylvia Engdahl
+      - Patricia A. McKillip
+      - Sharyn November
+      - Blake Nelson
+      - Mike Lupica
+      - David Wood
+      - Jane Walmsley
+      - Frances Hodgson Burnett
+      - Abigail Adams
+      - Charlotte Brontë
+      - William Faulkner
+      - Edward John Moreton Drax Plunkett Baron Dunsany
+      - John Adams
+      - Sylvia Louise Engdahl
+      - Gary Chalk
+      - Shashi Tharoor
+      - Ron Chernow
+      - Carlos Ruiz Zafón
+      - Carol Shields
+      - Mary Karr
+      - Cornel West
+      - Douglas Brinkley
+      - T. R. Reid
+      - Edward Gibbon
+      - Jared M. Diamond
+      - Geraldine Brooks
+      - June Casagrande
+      - John Berendt
+      - G. Richard Shell
+      - Kim Edwards
+      - Jim Trelease
+      - Jean-Jacques Rousseau
+      - Maurice Cranston
+      - Søren Kierkegaard
+      - Nicola Bradbury
+      - Yvon Chouinard
+      - Georges Simenon
+      - David Watson
+      - William Easterly
+      - Robert Stone
+      - Robertson Davies
+      - Wayne Johnston
+      - Murasaki Shikibu
+      - R. K. Narayan
+      - Margarita Guerrero
+      - Peter Sís
+      - Pedro Calderón de la Barca
+      - Rebecca West
+      - Janet Flanner
+      - Irving Drutman
+      - Melinda Long
+      - David Shannon
+      - Hildegarde Hoyt Swift
+      - Lynd Ward
+      - Lauren Stringer
+      - Ursula K. Le Guin
+      - Eleanor Estes
+      - Janet S. Wong
+      - Margaret Chodos-Irvine
+      - Laura Bowers
+      - Adam Rex
+      - Allen Mandelbaum
+      - Gary Paulsen
+      - James Morrow
+      - Octavio Paz
+      - Robert Penn Warren
+      - José Saramago
+      - Giovanni Pontiero
+      - Emma Donoghue
+      - Margaret Jull Costa
+      - Wislawa Szymborska
+      - Stanisław Barańczak
+      - Clare Cavanagh
+      - Claire Messud
+      - Jimmy Buffett
+      - Stanislaw Lem
+      - Dudley Fitts
+      - Leonard Woolf
+      - Jonathan Lethem
+      - Stella McNichol
+      - Abraham B. Yehoshua
+      - Hillel Halkin
+      - Daniel Keyes
+      - Susan Gubar
+      - Faïza Guène
+      - Sarah Adams
+      - Michelle Tea
+      - Jane Marcus
+      - Mark Hussey
+      - Salvador Plascencia
+      - Julia Briggs
+      - William C. Davis
+      - Tomie DePaola
+      - Eudora Welty
+      - Anaïs Nin
+      - Philip Nicholas Furbank
+      - William Golding
+      - Jan Struther
+      - Thomas Stearns Eliot
+      - Adeline Virginia Stephen Woolf
+      - Andy Warhol
+      - Ezra Pound
+      - Noel Streatfeild
+      - Geraldine McCaughrean
+      - Victor G. Ambrus
+      - Joseph Conrad
+      - Peter Singer
+      - Robin Waterfield
+      - Geraldine Pinch
+      - John Milton
+      - Jonathan Swift
+      - Claude Rawson
+      - Ian Higgins
+      - Voltaire
+      - Emile Zola
+      - Elinor Dorday
+      - Robert Lethbridge
+      - Sir Walter Scott
+      - Lesley Lipson
+      - James Morwood
+      - David Wright
+      - graf Leo Tolstoy
+      - Charles Hubert Sisson
+      - David H. Higgins
+      - Hans Christian Andersen
+      - Fyodor Dostoevsky
+      - Ignat Avsey
+      - Johann Wolfgang von Goethe
+      - David Coward
+      - Ivan Sergeevich Turgenev
+      - Leonardo Da Vinci
+      - Leonardo (da Vinci)
+      - Alexander Pushkin
+      - James E. Falen
+      - James Matthew Barrie
+      - Jm Stendhal
+      - Fanny Burney
+      - Laura Gibbs
+      - James Edward Austen-Leigh
+      - Catherine Osborne
+      - Henry Chadwick
+      - John Maynard Smith
+      - Eörs Szathmáry
+      - David Hackett Fischer
+      - G. Edward White
+      - Vera John-Steiner
+      - Stephanie McCurry
+      - Robert L. O'Connell
+      - Reginald Gibbons
+      - Charles Segal
+      - Frederick K. Goodwin
+      - Kay Redfield Jamison
+      - Simón Bolívar
+      - Eurípides
+      - Michael Collier
+      - Georgia Machemer
+      - David John Chalmers
+      - John Lindow
+      - James M. McPherson
+      - John Perry
+      - Michael Bratman
+      - John Martin Fischer
+      - John Lewis Gaddis
+      - David L. Holmes
+      - Ted Steinberg
+      - Stewart Shapiro
+      - S. Douglas Olson
+      - Jeffrey Henderson
+      - Oxford University Press
+      - TME.
+      - Helen Cooper
+      - Anthony Kenny
+      - Will Kymlicka
+      - Alexander Pope
+      - Nick Lane
+      - Ted Honderich
+      - Jonathan Wolff
+      - Richard P. Feynman
+      - John Tollett
+      - Robin Williams
+      - David Rohr
+      - Robert L. Benedetti
+      - Lance Armstrong
+      - Sally Jenkins
+      - Chris Ware
+      - Robert Allison
+      - Ivo Andríc
+      - Hannah Arendt
+      - Joanna Vecchiarelli Scott
+      - Judith Chelius Stark
+      - Seth Benardete
+      - Jürgen Habermas
+      - Giovanna Borradori
+      - Jacques Derrida
+      - Robert A. Dahl
+      - John D'Emilio
+      - Mircea Eliade
+      - Nikolai Gogol
+      - Николай Васильевич Гоголь
+      - Simon Goldhill
+      - Sophocles
+      - David Grene
+      - Richmond Lattimore
+      - Esquilo
+      - Alexander Heidel
+      - Hesiod
+      - Alice Kaplan
+      - Eric Klinenberg
+      - George Lakoff
+      - Norman Maclean
+      - Richard A. Posner
+      - Anthony Powell
+      - Leo Strauss
+      - Joseph Cropsey
+      - Fred Turner
+      - Theodosius Dobzhansky
+      - Sei Shōnagon
+      - Kōbō Abe
+      - Larry P. Gross
+      - James D. Woods
+      - Judith Butler
+      - Jean Baudrillard
+      - Julia Witwer
+      - Usāmah ibn Munqidh
+      - Philip Khuri Hitti
+      - Nicolas Tredell
+      - Nathaniel Hawthorne
+      - Claire Brennan
+      - Todd Gitlin
+      - Professor of Culture Journalism and Sociology Todd Gitlin
+      - Michael J. Mauboussin
+      - Gilles Deleuze
+      - Pauline Francis
+      - Jules Verne
+      - Sam Kauffmann
+      - Michael Rabiger
+      - Eric Carle
+      - Robert E. Hemenway
+      - James Thomas Farrell
+      - Professor James T Farrell
+      - Alighieri Dante
+      - Martin Heidegger
+      - Dante (Alighieri)
+      - Bill Nichols
+      - Christopher Tolkien
+      - Slavoj Žižek
+      - Harold Abelson
+      - Gerald Jay Sussman
+      - Julie Sussman
+      - Richard E. Cytowic
+      - Daniel Clement Dennett
+      - Donald Eastlake
+      - Eleanor J. Gibson
+      - Paul R. Krugman
+      - Arien Mack
+      - Irvin Rock
+      - Lev Manovich
+      - Roger F. Malina
+      - Sean Cubitt
+      - Mitchel Resnick
+      - Žižek
+      - Stockholm Inst Of Transition Staff
+      - Mladen Dolar
+      - Alenka Zupancic
+      - Thomas Aquinas
+      - Tim Ambler
+      - Satyajit Das
+      - Avigdor Kahalani
+      - Bruce L. Edwards
+      - Alec Maclellan
+      - Charles Seife
+      - Daisetz Teitaro Suzuki
+      - Richard De Martino
+      - Gunnvor Stallybrass
+      - Pablo Neruda
+      - Juan Rulfo
+      - Carlos A. Schwantes
+      - Craig Scharlin
+      - Lilia V Villanueva
+      - Chris Kubica
+      - Will Hochman
+      - D. W. Meinig
+      - James C. Scott
+      - Leonardo
+      - Douglas Robert Nickel
+      - Lewis Carroll
+      - San Francisco Museum of Modern Art
+      - Eugene O'Neill
+      - William C. Carter
+      - Eamon Duffy
+      - Burton Raffel
+      - Harold Bloom
+      - Witold Gombrowicz
+      - Danuta Borchardt
+      - Richard Gott
+      - "Menil collection (Houston, Tex.)."
+      - Eva Hesse
+      - Drawing center (New York).
+      - "Drawing Center (New York, N.Y.)"
+      - "Walker Art Center (Minneapolis, Minn.)."
+      - "Museum of Contemporary Art (Los Angeles, Calif.)"
+      - Lawrence S. Rainey
+      - Leonard Cottrell
+      - William Lawrence Shirer
+      - Robert Louis Stevenson
+      - Jeffrey Meyers
+      - Nick Tosches
+      - Donald Spoto
+      - Michael Streissguth
+      - John Wilcockson
+      - Douglas Adams
+      - John Lloyd
+      - Karen Harper
+      - Giada De Laurentiis
+      - George Edward Stanley
+      - John Updike
+      - Toni Morrison
+      - Cormac McCarthy
+      - Sam Shepard
+      - Lauren Weisberger
+      - Lincoln Child
+      - P. D. James
+      - James Frey
+      - Dan Brown
+      - Katharine McMahon
+      - Cesar Millan
+      - Melissa Jo Peltier
+      - Govind Armstrong
+      - Ann Wycoff
+      - Alison Clare Steingold
+      - Mark Leyner
+      - Billy Goldberg
+      - Barack Obama
+      - Ben Carson
+      - Cecil B. Murphey
+      - Terri Blackstock
+      - Leonard I. Sweet
+      - Brian D. McLaren
+      - Jerry Haselmayer
+      - James Scott Bell
+      - Karen Kingsbury
+      - Christopher J. H. Wright
+      - Andy Crouch
+      - Mark Mittelberg
+      - Lee Strobel
+      - Bill Hybels
+      - J. Scott Duvall
+      - J. Daniel Hays
+      - David Alexander
+      - Pat Alexander
+      - Rob Bell
+      - "Rick Warren, D.Min."
+      - Zondervan Publishing
+      - Miles J. Stanford
+      - Kenneth L. Barker
+      - Donald W. Burdick
+      - James N. Frey
+      - Kate Chopin
+      - James Herriot
+      - Gardner Dozois
+      - Paola Cavalieri
+      - Richard Dooling
+      - Judith Thurman
+      - Richard Curtis
+      - Victor Bockris
+      - Sarah Dening
+      - M. M. Kaye
+      - Henry Roth
+      - Margaret George
+      - John Toews
+      - Gordon Bowker
+      - Dodie Smith
+      - Kurt Reighley
+      - Sarah Vowell
+      - Kate Atkinson
+      - Bill Richardson
+      - Jim Fergus
+      - Julie Phillips
+      - Lorrie Moore
+      - Randy Shilts
+      - Philip Gourevitch
+      - Shifra Horn
+      - Dalya Bilu
+      - Patricia Hall
+      - Norman Mailer
+      - Pauline Reage
+      - Andrew X. Pham
+      - Mary Westmacott
+      - Tony Hawks
+      - Hermann Hesse
+      - Caroline Sharp
+      - Stacy Horn
+      - Maxine Swann
+      - Elizabeth Chadwick
+      - Donna VanLiere
+      - Gertrude S. Williams
+      - Jo Ann Robinson
+      - Paul Collins
+      - Noah Gordon
+      - Jincy Willett
+      - Pete McCarthy
+      - Graham Chapman
+      - John Cleese
+      - Terry Gilliam
+      - Michael Palin
+      - Eric Idle
+      - Marion Crawford
+      - The New York Times
+      - Tom Perrotta
+      - Terry Eagleton
+      - Matthew Scully
+      - John Maddox Roberts
+      - Emily Giffin
+      - James Kirkwood
+      - Sarah Miller
+      - P. T. Deutermann
+      - Maria Coffey
+      - Rex Pickett
+      - Carolly Erickson
+      - L. A. Banks
+      - Barbara Taylor Bradford
+      - Anita Diamant
+      - Joy King
+      - Linda Francis Lee
+      - Lindsey Davis
+      - Mystery
+      - Chris Odom
+      - P. C. Cast
+      - Kristin Cast
+      - Let's Go Inc
+      - The Paris Review
+      - Linda Lear
+      - Paul LaFarge
+      - Colum McCann
+      - Zoë Heller
+      - Jeffrey Eugenides
+      - Suki Kim
+      - Sigrid Nunez
+      - Ian Thomson
+      - Michael Cunningham
+      - Tom Wolfe
+      - Andrea Levy
+      - Ron Rash
+      - Melania G. Mazzucco
+      - Anthony Shadid
+      - Anonymous
+      - Scott Turow
+      - Jack Williamson
+      - Jack Vance
+      - Charles de Lint
+      - Jonathan Carroll
+      - Robert A. Heinlein
+      - Kathryn H. Kidd
+      - Richard Matheson
+      - Arthur C. Clarke
+      - Gene Wolfe
+      - Terry C. Johnston
+      - David Poyer
+      - Jennifer Crusie
+      - Charlotte Hughes
+      - Ronda Thompson
+      - Jeffrey Archer
+      - Wilbur Smith
+      - Eileen Dreyer
+      - Anne Stuart
+      - Leanne Banks
+      - Dorothy L. Sayers
+      - Jill Paton Walsh
+      - Matt Braun
+      - Stephen Coonts
+      - Hugh Miller
+      - Rachael F. Heller
+      - Gregg Olsen
+      - Robert Ludlum
+      - Jane Haddam
+      - Patrick Larkin
+      - James Craig Holte
+      - Sarah K. Herz
+      - Donald R. Gallo
+      - James Patterson
+      - Darren Shan
+      - David Foster Wallace
+      - Julie Powell
+      - Robb Forman Dew
+      - Bob Spitz
+      - Joseph Wambaugh
+      - Michael Connelly
+      - Asne Seierstad
+      - Ellis Weiner
+      - Barbara Davilman
+      - Alice Sebold
+      - Malcolm Gladwell
+      - Janet Fitch
+      - Timothy Ferris
+      - Clifton Fadiman
+      - Scott Freeman
+      - John Fowles
+      - Edith Hamilton
+      - Mian Mian
+      - Rick Moody
+      - Peter De Jonge
+      - Cecily von Ziegesar
+      - J.D. Salinger
+      - John W. Schott
+      - Jean S. Arbeiter
+      - Ronald Takaki
+      - Stephen King
+      - Robert Dallek
+      - Evelyn Waugh
+      - Herman Wouk
+      - Karen O'Connor
+      - Larry Sabato
+      - Larry J. Sabato
+      - Steve Krug
+      - Susan J. Wolfson
+      - Andrew Elfenbein
+      - Harold C. Livesay
+      - Louis E. Catron
+      - Michael Ondaatje
+      - Enid Blyton
+      - Frank Zappa
+      - Peter Occhiogrosso
+      - Ken Follett
+      - Jeff Noon
+      - Tobias Wolff
+      - Peter F. Hamilton
+      - Melanie Rawn
+      - Jennifer Roberson
+      - Kate Elliott
+      - Jon Krakauer
+      - Andy Griffiths
+      - Anne Chisholm
+      - Colm Tóibín
+      - Jon Ronson
+      - Judy Blume
+      - David Baldacci
+      - Noel Malcolm
+      - Rusty Young
+      - Alexander Frater
+      - Benjamin Kunkel
+      - Bret Easton Ellis
+      - V. S. Naipaul
+      - Vidiadhar Surajprasad Naipaul
+      - Tim Winton
+      - Andrew P. Trout
+      - Rubem A. Alves
+      - Thomas Cahill
+      - James Clavell
+      - Kate Mosse
+      - Andrew Hunt
+      - Dalai Lama XIV Bstan-ʼdzin-rgya-mtsho
+      - Howard C. Cutler
+      - Kate Pennington
+      - Damion Hunter
+      - Pauline Réage
+      - John Brunner
+      - Piers Anthony
+      - Robert Anson Heinlein
+      - Alan Dean Foster
+      - Howard Phillips Lovecraft
+      - Carl Sagan
+      - Julian May
+      - Faye Perozich
+      - Daerick Gross
+      - Hunter S. Thompson
+      - J. Gregory Keyes
+      - Katherine M. Ramsland
+      - Alison Weir
+      - Bill Maher
+      - John Irving
+      - William Goldman
+      - Katherine Neville
+      - Sue Miller
+      - Cecil Adams
+      - Ed Zotti
+      - Luke Davies
+      - Jimmy Carter
+      - Stephen Frey
+      - Mario Puzo
+      - James Shreeve
+      - Roger T. Ames
+      - Henry Rosemont
+      - James Wight
+      - Jim Wight
+      - Sheri Holman
+      - Erle Stanley Gardner
+      - Susan Carroll
+      - Philip K. Howard
+      - Christina Schwarz
+      - Lester Del Rey
+      - Margaret Cho
+      - Louis Begley
+      - Lorna Landvik
+      - Laurell K. Hamilton
+      - Greg Keyes
+      - Daniel Wallace
+      - W. Haden Blackman
+      - Silas House
+      - Arthur Charles Clarke
+      - Stephen Baxter
+      - Julie Garwood
+      - Richard K. Morgan
+      - Douglas A. Anderson
+      - tess girritsen
+      - Jeff Shaara
+      - Sean Stewart
+      - Robert Fulghum
+      - John Saul
+      - Jim Lehrer
+      - Anne Tyler
+      - James Luceno
+      - Barbara Wertheim Tuchman
+      - Nick Webb
+      - Drew Karpyshyn
+      - Ann Margaret Lewis
+      - Helen Keier
+      - CLAMP (Mangaka group)
+      - Frederick Douglass
+      - Harriet Jacobs
+      - Charlie Huston
+      - Donald Trump
+      - Harvey Pekar
+      - Alex Irvine
+      - Bob Kane
+      - Naomi Novik
+      - Amanda Eyre Ward
+      - Gail Godwin
+      - Noire
+      - Linda Howard
+      - Susan J. Jeffers
+      - Jillian Hunter
+      - Karen Traviss
+      - Richard Adams
+      - J. W. Rinzler
+      - Daniel Jonah Goldhagen
+      - Mark Behr
+      - Nicholas Murray
+      - David Sedaris
+      - Nelson Mandela
+      - Alexander McCall Smith
+      - Valerie Parv
+      - Jane Porter
+      - Annie West
+      - Joanna Wayne
+      - Susan Mallery
+      - Laura Caldwell
+      - Wendy Markham
+      - Sarah Mlynowski
+      - Merline Lovelace
+      - Mary Burton
+      - Marilyn Pappano
+      - Debra Cowan
+      - Nora Roberts
+      - Cheryl St. John
+      - Betty Neels
+      - Warren Murphy
+      - Richard Sapir
+      - James Axler
+      - Melinda Curtis
+      - Ann Major
+      - Heidi Betts
+      - Brenda Joyce
+      - Jayne Ann Krentz
+      - Julie Kenner
+      - Mercedes Lackey
+      - Tanith Lee
+      - C. E. Murphy
+      - Caitlin Brennan
+      - Barbara Bretton
+      - Emilie Rose
+      - Isabel Sharpe
+      - Loree Lough
+      - Joe Miller
+      - Jostein Gaarder
+      - Anne Born
+      - Leonard Michaels
+      - John McPhee
+      - Polly Horvath
+      - Isaac Bashevis Singer
+      - Bernard Malamud
+      - Carlos Fuentes
+      - Deborah Eisenberg
+      - Mina Loy
+      - Seamus Heaney
+      - Ted Hughes
+      - Anthony E. Wolf
+      - Christopher Maurer
+      - Catherine Brown
+      - Stephen Kinzer
+      - Marguerite Yourcenar
+      - Grace Frick
+      - Ilan Stavans
+      - Dale Peck
+      - Yasunari Kawabata
+      - Lane Dunlop
+      - J. Martin Holman
+      - Flannery O'Connor
+      - Samuel Beckett
+      - Arnold Rampersad
+      - Louise Maude
+      - Edward W. Saïd
+      - Charles Burns
+      - Maya Angelou
+      - Tom Hunt
+      - Francine Segan
+      - Susan Minot
+      - Hermione Lee
+      - Jodi Cobb
+      - Ian Buruma
+      - Walker Percy
+      - Jeanette Winterson
+      - Andrew Delbanco
+      - Suketu Mehta
+      - Oliver W. Sacks
+      - Paul Hendrickson
+      - Nathan Englander
+      - Joseph J. Ellis
+      - Eliza Minot
+      - Fred Anderson
+      - David K. Shipler
+      - Richard Rhodes
+      - Mark Stevens
+      - Annalyn Swan
+      - Katherine Dunn
+      - Robert D. Kaplan
+      - Edward S. Herman
+      - Noam Chomsky
+      - Alex Ross
+      - Charles M. Schulz
+      - Craig Thompson
+      - Fyodor Mikhailovich Dostoevsky
+      - John Cheever
+      - David Mitchell
+      - William Somerset Maugham
+      - Eric Hansen
+      - Donald Antrim
+      - John Banville
+      - Philip Caputo
+      - Nicholson Baker
+      - Kobo Abe
+      - Eric Ambler
+      - Ann Packer
+      - Mark Mazower
+      - Halldór Laxness
+      - Halldor Kiljan Laxness
+      - David Roberts
+      - Billy Collins
+      - Solomon Jones
+      - Edith Wharton
+      - Adam Gopnik
+      - Ruth Reichl
+      - Jonathan Harr
+      - Michael Pollan
+      - Margaret MacMillan
+      - Nancy Milford
+      - John F. Harris
+      - Marcia Angell
+      - Norton Juster
+      - Thomas R. Holtz
+      - M. K. Brett-Surman
+      - Ron Roy
+      - Jerry Spinelli
+      - Tamora Pierce
+      - Barbara Park
+      - Mary Pope Osborne
+      - Natalie Pope Boyce
+      - Jeanne DuPrau
+      - Josepha Sherman
+      - Rachel Cohn
+      - David Levithan
+      - Emily Jenkins
+      - Philip Pullman
+      - Donald Zochert
+      - Stephen Manes
+      - John Boslough
+      - Sylvia Cassedy
+      - George Smoot
+      - Keay Davidson
+      - Bartholomew Gill
+      - Elizabeth Peters
+      - Cynthia Harrod-Eagles
+      - Johanna Hurwitz
+      - Jane Feather
+      - Piers A. Jacob
+      - Bob Callahan
+      - Deborah Gordon
+      - Kathleen Eagle
+      - Deborah Woodworth
+      - Kate Klise
+      - Pearl Cleage
+      - Katherine Hall Page
+      - Kathleen Eschenburg
+      - Victoria Alexander
+      - Christie Ridgway
+      - Dorothy Corkille Briggs
+      - Edgar Allan Poe
+      - Chinua Achebe
+      - Gilbert Keith Chesterton
+      - Friedrich Wilhelm Nietzsche
+      - William Hardy McNeill
+      - "Andersen, H. C. (Hans Christian)"
+      - John Ehle
+      - John Barth
+      - Naguib Mahfouz
+      - Najīb Maḥfūẓ
+      - Jane Hamilton
+      - Victor Villaseñor
+      - William Manchester
+      - Charles Boyce
+      - David Allen White
+      - Robert Hellenga
+      - Mark Hertsgaard
+      - Susanna Tamaro
+      - Stephen W. Hines
+      - Richard Hull
+      - Anna Quindlen
+      - Desmond Morris
+      - Gretchen Moran Laskas
+      - David Schickler
+      - Allegra Goodman
+      - Liam Callanan
+      - Anne Moody
+      - David Hewson
+      - Rosalind Laker
+      - "Donald Spoto, M.A., Ph.D."
+      - Joseph Campbell
+      - Phillip Lopate
+      - Donald Kagan
+      - Frederick Charles Copleston
+      - Joy Kogawa
+      - Laura Esquivel
+      - C. D. Payne
+      - Antonia Fraser
+      - Chitra Banerjee Divakaruni
+      - Peter D'Epiro
+      - Mary Desmond Pinkowish
+      - Margaret Atwood
+      - Aimee Bender
+      - Simon Singh
+      - Geoffrey Miller
+      - Richard Preston
+      - Anne Lamott
+      - Walter Kirn
+      - Elwood Reid
+      - Anne Frank
+      - Mark Z. Danielewski
+      - Fran Warde
+      - Nella Larsen
+      - Jane Smiley
+      - Nicole Krauss
+      - Alister E. McGrath
+      - Mark Dunn
+      - Ann Brashares
+      - Nancy Osa
+      - Lois Lowry
+      - Caroline B. Cooney
+      - Frank Portman
+      - Daria Snadowsky
+      - Nicholas Humphrey
+      - Robert L. Wolke
+      - Marlene Parrish
+      - T. E. Apter
+      - Anton Pavlovich Chekhov
+      - Stephen Greenblatt
+      - Stephen Jay Greenblatt
+      - Irvine Welsh
+      - Steven G. Kellman
+      - Michael B. Oren
+      - Ian W. Toll
+      - Eric R. Kandel
+      - Arthur Conan Doyle
+      - Harriet Beecher Stowe
+      - Professor Harriet Beecher Stowe
+      - Sigmund Freud
+      - National Commission on Terrorist Attacks upon the United States
+      - Will Eisner
+      - Steve Wozniak
+      - Gina Smith
+      - Sean B. Carroll
+      - Stephen Jay Gould
+      - Ralph E. Matlaw
+      - Henri Beyle
+      - Robert Merrihew Adams
+      - Eduardo Galeano
+      - Cedric Belfrage
+      - Kip Thorne
+      - Kip S. Thorne
+      - Stephen Hawking
+      - William Cronon
+      - Joy Harjo
+      - Gloria Bird
+      - Bernice Kert
+      - Michael S. Reynolds
+      - John Gardner
+      - Jill Nelson
+      - Roger Shattuck
+      - Patricia Highsmith
+      - Chanrithy Him
+      - Betty Friedan
+      - Mark Crispin Miller
+      - Michael Lewis
+      - Mary S. Lovell
+      - Erica Jong
+      - Stephen W. Hawking
+      - Igor D. Novikov
+      - Charles Wheelan
+      - Wole Soyinka
+      - National Commission on Terrorist Attacks
+      - United States. National Commission on Terrorist Attacks upon the United States
+      - Govt. Commission Usa
+      - Stany Zjednoczone. National Commission on Terrorist Attacks upon the United States
+      - NORTON & CO.
+      - Stati Uniti d' America. National commission on terrorist attacks upon the United States
+      - USA National Commission on Terrorist Attacks Upon the United States
+      - Bruce Cumings
+      - Don Lee
+      - Sam Harris
+      - Amartya Sen
+      - Nick Flynn
+      - Babette Rothschild
+      - Matthew D. Selekman
+      - John Keats
+      - John M. Merriman
+      - Sarah N. Lawall
+      - Ronald Verlin Cassill
+      - Richard Bausch
+      - John Charles Chasteen
+      - Seymour Lee Gross
+      - Deborah Esch
+      - Jonathan Warren
+      - Henry David Thoreau
+      - Margo Culley
+      - Scott Elledge
+      - Eugene F. Rice
+      - Anthony Grafton
+      - Michael Shinagel
+      - J. Paul Hunter
+      - Vincent B. Leitch
+      - Bernard Shaw
+      - Simon Gikandi
+      - Peter Hulme
+      - William Howard Sherman
+      - Emily Bronte
+      - Carla Kaplan
+      - Dorothy Dunnett
+      - Marcella Hazan
+      - Walter Arnold Kaufmann
+      - R. J. Hollingdale
+      - Marguerite Duras
+      - J. Anthony Lukas
+      - Shelby Foote
+      - John Hersey
+      - Raymond Chandler
+      - Richard Ellmann
+      - Theodor Seuss Geisel
+      - Roy McKié
+      - Philip D. Eastman
+      - Monica Furlong
+      - Phoebe Dunn
+      - Ruth S. Noel
+      - Kimon Nicolaïdes
+      - Paul Galdone
+      - Winston Churchill
+      - Raymond T. McNally
+      - Radu Florescu
+      - Jonathan Hale
+      - David Wiesner
+      - Gwynne Blakemore Evans
+      - Irving Babbitt Professor of Comparative Literature Harry Levin
+      - Herschel Baker
+      - J. J. M. Tobin
+      - Anne Barton
+      - Heather Dubrow
+      - William T. Liston
+      - Harry Levin
+      - Marie Edel
+      - Hallet Smith
+      - Charles H. Shattuck
+      - Richard W. Wrangham
+      - Dale Peterson
+      - Abraham Lincoln
+      - Neale Donald Walsch
+      - Dick Francis
+      - Dean Ray Koontz
+      - Barry Eisler
+      - Tim F. LaHaye
+      - Patricia Daniels Cornwell
+      - Carol Stock Kranowitz
+      - Sean O'Brien
+      - Dermot Moran
+      - Michael J. Davey
+      - Friedrich August Hayek
+      - Michael Howard
+      - Maurice Merleau-Ponty
+      - Jean Aitchison
+      - Diana M. Lewis
+      - Anne Kostelanetz Mellor
+      - Carlos Peregrín Otero
+      - Farah Mendlesohn
+      - Denis Waitley
+      - Tom Clancy
+      - Susan Conant
+      - Dean R. Koontz
+      - Claudia Bishop
+      - John Sandford
+      - Robert B. Parker
+      - Copyright Paperback Collection (Library of Congress)
+      - Susan Power
+      - Steve R. Pieczenik
+      - Diane Duane
+      - Sheri Reynolds
+      - Jeff Rovin
+      - Steve Perry
+      - Iain Pears
+      - Dean Koontz
+      - David Bodanis
+      - Lynn Kurland
+      - Steve Pieczenik
+      - David Colbert
+      - Vincent Lardo
+      - Lawrence Sanders
+      - Angela Knight
+      - Bill Bass
+      - William M. Bass
+      - Jon Jefferson
+      - William Gibson
+      - Ashley Gardner
+      - Lyn Hamilton
+      - David Michaels
+      - Dirk Cussler
+      - Larry Segriff
+      - Jack B. Du Brul
+      - Charlaine Harris
+      - Diane Whiteside
+      - Mari Mancusi
+      - Rebecca York
+      - Jessica Conant-Park
+      - MaryJanice Davidson
+      - Erin McCarthy
+      - Emma Holly
+      - Virginia Kantra
+      - Sunny
+      - Shayla Black
+      - Andrew Cartmel
+      - Nicholas Wright
+      - Bessie Head
+      - "Rowling, J.K."
+      - Karen McCullah Lutz
+      - Kirsten Smith
+      - David Small
+      - Anne Mazer
+      - Kathryn Lasky
+      - Jack London
+      - W. Rodman Philbrick
+      - Gordon Korman
+      - Lindsey Fraser
+      - J. K. Rowling
+      - Ann M. Martin
+      - Luis Sepúlveda
+      - Margaret Sayers Peden
+      - Chris Sheban
+      - Dave Luckett
+      - Roberta Grobel Intrater
+      - H. G. Wells
+      - Melvin Burgess
+      - Kristiana Gregory
+      - Jenny Nimmo
+      - Mary GrandPre
+      - Terry Cooper
+      - M. T. Anderson
+      - Sir Arthur Conan Doyle
+      - Eoin Colfer
+      - Jane B. Mason
+      - Sarah Hines-Stephens
+      - Michael Teitelbaum
+      - Ron Zalme
+      - Jude Watson
+      - Michaela Muntean
+      - Kate DiCamillo
+      - Daisy Meadows
+      - Georgie Ripper
+      - Bethany Roberts
+      - J. E. Bright
+      - James Preller
+      - Deborah Noyes
+      - Ann Rinaldi
+      - Emily Blake
+      - Cornelia Caroline Funke
+      - Robin Wasserman
+      - Ian Whybrow
+      - Deborah Allwright
+      - Terry Deary
+      - Martin Brown
+      - Margaret Simpson
+      - Reginald Hill
+      - Harlan Coben
+      - James Lee Burke
+      - Amelia Atwater-Rhodes
+      - George Selden
+      - David Almond
+      - Theodore Taylor
+      - James Bradley
+      - Nicholas Evans
+      - Homer H. Hickam
+      - Stephanie Spinner
+      - Mary Balogh
+      - Ian Caldwell
+      - Dustin Thomason
+      - Sophie Kinsella
+      - Belva Plain
+      - William Saroyan
+      - Helen Ericson
+      - Louise Fitzhugh
+      - Phyllis Reynolds Naylor
+      - Jan Greenberg
+      - Sandra Jane Jordan
+      - Annie Pietri
+      - Marjorie Weinman Sharmat
+      - Mitchell Sharmat
+      - Carl Hiaasen
+      - James Lincoln Collier
+      - Robert Anton Wilson
+      - Al Franken
+      - Stuart Smalley
+      - Robert Nye
+      - Robert J. Sawyer
+      - T. A. Barron
+      - Joe W. Haldeman
+      - Elizabeth A. Lynn
+      - Richard Paul Russo
+      - Richard A. Knaak
+      - Ilona Andrews
+      - Frank Herbert
+      - Michael Reaves
+      - Ronald J. Faust
+      - Roy F. Cucchiara
+      - Ross Thomas
+      - William Martin
+      - Tim Underwood
+      - Jacqueline Carey
+      - James Redfield
+      - Douglas J. Preston
+      - Joyce Meyer
+      - Jeff Povey
+      - Amy Sedaris
+      - Stephen Leeb
+      - Glen Strathy
+      - Sandra Brown
+      - David Morrell
+      - Nicholas Sparks
+      - M. C. Beaton
+      - Peg Kerr
+      - Nelson DeMille
+      - Douglas Preston
+      - Andrew Gross
+      - Carrie Vaughn
+      - Michael Moorcock
+      - Sudha Koul
+      - Clayborne Carson
+      - Christopher Cokinos
+      - Lalita Tademy
+      - Steven Pressfield
+      - Jon Stewart
+      - The Writers of The Daily Show
+      - Leonard Mlodinow
+      - Micah Sparks
+      - Rebecca St. James
+      - James Ellroy
+      - James H. Cobb
+      - Carolyn Keene
+      - Lucy Maud Montgomery
+      - Alexandra Moss
+      - Yona Zeldis McDonough
+      - Jill Weber
+      - Ann Abramson
+      - Chaim Potok
+      - Dave Barry
+      - Elmore Leonard
+      - Margaret Truman
+      - Mary Doria Russell
+      - Clare Naylor
+      - Philippa Carr
+      - James Albert Michener
+      - James A. Michener
+      - John D. MacDonald
+      - J. McIver Weatherford
+      - Alan Cohen
+      - Deborah Spungen
+      - Joanne Greenberg
+      - Ayn Rand
+      - Nathaniel Branden
+      - Jeffery Deaver
+      - Richard Bachman
+      - Catherine Coulter
+      - Ann Rule
+      - Graham Masterton
+      - Greg Iles
+      - Sylvia Browne
+      - Lindsay Harrison
+      - Peter Brown
+      - Steven S. Gaines
+      - John Lescroart
+      - John Howard Griffin
+      - Hervie Haufler
+      - Donna Hill
+      - Brenda Jackson
+      - Monica Jackson
+      - Francis Ray
+      - P. J. Tracy
+      - Irving Stone
+      - Bentley Little
+      - J. R. Ward
+      - Jen Lancaster
+      - John T. Lescroart
+      - Martha Grimes
+      - C. S. Harris
+      - Raymond Khoury
+      - Topaz
+      - Emma Merritt
+      - Marilyn Campbell
+      - Patricia Rice
+      - Carole Nelson Douglas
+      - Jack Du Brul
+      - Jessica Bird Ward
+      - Henry Beard
+      - Harvard Lampoon
+      - Douglas C. Kenney
+      - Marion Zimmer Bradley
+      - Constance Ash
+      - Robert A. Silverberg
+      - Rachel Caine
+      - Sinclair Lewis
+      - Walter J. Cobb
+      - Mildred Marmur
+      - Robert Paul Wolff
+      - Herbert George Wells
+      - Charles Darwin
+      - Marco Polo
+      - Milton Rugoff
+      - Howard Mittelmark
+      - Alan Jay Lerner
+      - Andrew Carnegie
+      - Paul Roche
+      - A.N. Roquelaure
+      - Berni Wrightson
+      - Michele Wrightson
+      - Geneen Roth
+      - Delia Sherman
+      - Pauline Kael
+      - Julia Alvarez
+      - John A. McDougall
+      - Mary McDougall
+      - Dan Savage
+      - Leonard Peikoff
+      - David Harriman
+      - David D. Burns
+      - A. N. Roquelaure
+      - E. L. Doctorow
+      - Arielle Ford
+      - Rachel Simon
+      - Karen Joy Fowler
+      - Peter Turchin
+      - Christopher Andrew
+      - Vasili Mitrokhin
+      - Stewart Brand
+      - David M. Buss
+      - Lawrence Friedman
+      - Barry Glassner
+      - Alice Miller
+      - Robin Lane Fox
+      - Thomas Sowell
+      - Richard Dawkins
+      - Dorothy E. Roberts
+      - David Filkin
+      - Peter Woit
+      - Joan Elizabeth Klingel Ray
+      - Eric Tyson
+      - Peter D. Schiff
+      - John Downes
+      - Marsha Collier
+      - Mark Harlan
+      - Basil Mahon
+      - Charles Mackay
+      - Dinah L. Moché
+      - Robert Carroll
+      - Michael E. Doyle
+      - Tish Boyle
+      - Timothy Moriarty
+      - Philip C. Plait
+      - Robert P. Miles
+      - E. J. Wagner
+      - Efraim Turban
+      - Alfred Lubrano
+      - Michael T. Goodrich
+      - Roberto Tamassia
+      - Robert G. Hagstrom
+      - Howard E. Covington
+      - Jennifer Watson
+      - Dave Lakhani
+      - Lois H. Gresh
+      - Robert Weinberg
+      - Lynn Keller
+      - Cristanne Miller
+      - Estelle B. Freedman
+      - William James
+      - Martin Gardner
+      - E.F. Bleiler
+      - Arthur Schopenhauer
+      - Gail Grant
+      - Lyon Sprague De Camp
+      - Wolfgang Amadeus Mozart
+      - Ellen H. Bleiler
+      - Lorenzo Da Ponte
+      - Owen Jones
+      - William Beebe
+      - O. Henry
+      - Samuel Taylor Coleridge
+      - Robert Frost
+      - Thornton W. Burgess
+      - Harrison Cady
+      - Thea Kliros
+      - Candace Ward
+      - E. D. A. Morshead
+      - Anna Sewell
+      - John Green
+      - Caroline Denzler
+      - Richard Dalby
+      - Stefan R. Dziemianowicz
+      - S. T. Joshi
+      - P. G. Wodehouse
+      - David A. Jasen
+      - George Herbert Palmer
+      - Benjamin Jowett
+      - H. W. C. Davis
+      - Stanley Appelbaum
+      - Rainer Maria Rilke
+      - Franz Xaver Kappus
+      - Reginald Snell
+      - E. M. Forster
+      - D. H. Lawrence
+      - Pedro Calderon de la Barca
+      - John Bunyan
+      - Paul Negri
+      - George Egerton
+      - Christopher Marlowe
+      - Havelock Ellis
+      - Constance Garnett
+      - Immanuel Kant
+      - J. M. D. Meiklejohn
+      - Georg Wilhelm Friedrich Hegel
+      - J. Sibree
+      - Aylmer Maude
+      - Lord Dunsany
+      - John A. Himes
+      - Thomas Jefferson
+      - G. W. F. Hegel
+      - S. W. Dyde
+      - E. R. Eddison
+      - Keith Henderson
+      - James Daley
+      - Charles Baudelaire
+      - Christopher Isherwood
+      - W. H. Auden
+      - Diana Kendall
+      - Duane Schultz
+      - Sydney Schultz
+      - Christopher Scarre
+      - Ul De Rico
+      - Linda Jones
+      - Linda Winstead
+      - Nina Bangs
+      - Gelsey Kirkland
+      - W. E. B. Griffin
+      - Lynda La Plante
+      - Christine Feehan
+      - Jayne Castle
+      - Eileen Wilks
+      - Vickie Taylor
+      - J. E. A. Tyler
+      - Arthur Rackham
+      - Clement Clarke Moore
+      - Ram Dass
+      - William F. Russell
+      - Donald A. Mackenzie
+      - Robert Bauval
+      - Hugh Kenner
+      - Lotte H. Eisner
+      - Fritz R. Stern
+      - Eric R. Wolf
+      - Roland Barthes
+      - Liza Crihfield Dalby
+      - Bernard Taper
+      - Joan Dayan
+      - Robert A. Nye
+      - Paul Farmer
+      - Jonathan Andrews
+      - Andrew T. Scull
+      - David Cairns
+      - Gene Brucker
+      - Julian Oliver Caldecott
+      - Lera Miles
+      - Judith Larner Lowry
+      - Steven Nadler
+      - Steven M. Nadler
+      - Matthew J. Gibney
+      - Elisabeth Jean Wood
+      - Wood Elisabeth Jean
+      - G. S. Kirk
+      - J. E. Raven
+      - M. Schofield
+      - Bernard Williams
+      - Susan Snyder
+      - Deborah T. Curren-Aquino
+      - Anthony Thorlby
+      - Professor of Greek Literature and Culture and Fellow and Director of Studies in Classics Simon Goldhill
+      - Michael Wood
+      - Charles Taylor
+      - Cicero
+      - Marcus Tullius Cicero
+      - Quintus Tullius Cicero
+      - Georg Wilhelm Fredrich Hegel
+      - Joseph Tainter
+      - Quentin Skinner
+      - Retha M. Warnicke
+      - "Hobsbawm, E. J. Hobsbawm"
+      - Eric Hobsbawm
+      - Terence Ranger
+      - E. M. Butler
+      - Eliza Marian Butler
+      - E. J. Hobsbawm
+      - Lloyd Phillip Gerson
+      - Lloyd P. Gerson
+      - John O. Jordan
+      - Andrew Gurr
+      - Philip Edwards
+      - Elizabeth Story Donno
+      - Jay L. Halio
+      - Christopher Janaway
+      - Nietzsche Friedrich
+      - Peter Conn
+      - Peter J. Conn
+      - Anthony J. Cascardi
+      - Robert Sokolowski
+      - William T. Vetterling
+      - Margaret Johnson
+      - Andrea Wilson Nightingale
+      - Ruth Abbey
+      - Lecturer in Philosophy Ruth Abbey
+      - Cambridge University Press
+      - Barton Zwiebach
+      - "Radcliffe G. Edmonds, III"
+      - Daron Acemoglu
+      - James A. Robinson
+      - Kathleen V. Kudlinski
+      - Deborah Ford
+      - Edie Hand
+      - Chris Seay
+      - David B. Capes
+      - Brian McLaren
+      - Adam Drozdek
+      - Donald D. Stull
+      - Michael J. Broadway
+      - Stephen Briggs
+      - Paul Kidby
+      - Tina Hannan
+      - David Gemmell
+      - David Eddings
+      - Betty Mahmoody
+      - William Hoffer
+      - Andy McNab
+      - Paul Stewart
+      - Chris Riddell
+      - Ben Elton
+      - Stephen Clarke
+      - Jerry Seinfeld
+      - Leo Dillon
+      - Diane Dillon
+      - Donald J. Sobol
+      - Jamie Suzanne
+      - Francine Pascal
+      - Louis L'Amour
+      - T. Z. Lavine
+      - Barbara Conklin
+      - Leon Uris
+      - Connie Willis
+      - Stefanie Curtis
+      - Joseph Papp
+      - Elizabeth Kirkland
+      - Kate William
+      - Daniel Goleman
+      - Douglas R. Hofstadter
+      - Joseph Chaikin
+      - Nicholas H. Dodman
+      - Tom Robbins
+      - Susan Forward
+      - Joan Torres
+      - Pat Conroy
+      - George R. R. Martin
+      - Jean M. Auel
+      - Frederick George
+      - J. Frederick George
+      - Sam Walton
+      - John Huey
+      - H. Norman Schwarzkopf
+      - Peter Petre
+      - David Brin
+      - Theodore Roszak
+      - Lisa Gardner
+      - Aaron Allston
+      - Brian Herbert
+      - Kevin J. Anderson
+      - Shana Abé
+      - Jean Stone
+      - David L. Robbins
+      - Teresa Medeiros
+      - Shana Abe
+      - Maggie Furey
+      - Bob Phillips
+      - Christopher Fowler
+      - Luanne Rice
+      - STEPHEN W AUTOR HAWKING
+      - Colin Wells
+      - Erik Larson
+      - Robert Whitaker
+      - Jean Sasson
+      - Alan Ereira
+      - Robert McL Wilson
+      - Tom Stoppard
+      - Juliette de Baïracli Levy
+      - Orhan Pamuk
+      - Gus Van Sant
+      - Ian S. MacNiven
+      - Nikos Kazantzakis
+      - Wisława Szymborska
+      - Sylvia Plath
+      - James Mangold
+      - Lisa Loomer
+      - Anna Hamilton Phelan
+      - Ian Christie
+      - Günter Grass
+      - Paul Schrader
+      - Paul Cronin
+      - Timothy Findley
+      - Neil LaBute
+      - Sylvia Nasar
+      - D. B. C. Pierre
+      - Robert Evans
+      - Rachel Klein
+      - Kazuo Ishiguro
+      - Paul Karasik
+      - David Mazzucchelli
+      - Philip K. Dick
+      - Ken Grimwood
+      - Susan Shillinglaw
+      - Henri Charrière
+      - Molly Bang
+      - Tara McCarthy
+      - Alvin Schwartz
+      - Paula Danziger
+      - Joanne Rocklin
+      - Hilary Milton
+      - Betty MacDonald
+      - Jahnna N. Malcolm
+      - John Peterson
+      - Debbie Dadey
+      - Marcia Thornton Jones
+      - Francine Patterson
+      - Ronald H. Cohn
+      - Gertrude Chandler Warner
+      - Bill Cosby
+      - Varnette P. Honeywood
+      - Arthur Herzog
+      - Zilpha Keatley Snyder
+      - Jeremy D. Zawodny
+      - Derek J. Balling
+      - Paul Graham
+      - Dru Lavigne
+      - David Pogue
+      - Lucas Carlson
+      - Leonard Richardson
+      - Paul DuBois
+      - Shere Hite
+      - Ina Garten
+      - Larry Bossidy
+      - Ram Charan
+      - Charles Burck
+      - Mona Lisa Schulz
+      - Robert Siegel
+      - "William T Anderson, Ed."
+      - Anita Desai
+      - John Dos Passos
+      - Julian Jaynes
+      - Wayne G. Hammond
+      - Christina Scull
+      - Carson McCullers
+      - Stephen R. Swinburne
+      - Jim Brandenburg
+      - Rick Bass
+      - Garry Wills
+      - Pulitzer Prize-Winning Journalist and Historian Garry Wills
+      - Mary Downing Hahn
+      - Glenn Stout
+      - Buzz Bissinger
+      - Peter Smith
+      - John Alexander Guy
+      - Brian Sibley
+      - Jim Murphy
+      - Chris Smith
+      - Neil D. Isaacs
+      - Rose A. Zimbardo
+      - David Lubar
+      - Jacqueline K. Ogburn
+      - Marjorie Priceman
+      - Eric Schlosser
+      - Darcy Frey
+      - Paul Theroux
+      - Richard W. Bulliet
+      - Ellen Weiss
+      - Robert Zemeckis
+      - William Broyles
+      - Chris Van Allsburg
+      - Alison Bechdel
+      - Andrew Weil
+      - Jhumpa Lahiri
+      - Michael Oates
+      - Larbi Oukada
+      - Dashka Slater
+      - Nicoletta Ceccoli
+      - John Garth
+      - Tim Cahill
+      - Jason Wilson
+      - Philip Zaleski
+      - Adam Hochschild
+      - Yan Wong
+      - Charles Wilson
+      - H. G. Bissinger
+      - Amitav Ghosh
+      - Jerome Karabel
+      - John G. Cottingham
+      - Stephen Mulhall
+      - Adam Swift
+      - Michael W. Smith
+      - Carole Marsh
+      - Ralph C. Wood
+      - Ronald Bruce Flowers
+      - Ernest Gordon Rupp
+      - Philip Saville Watson
+      - Norah Vincent
+      - Marisha Pessl
+      - A. M. Homes
+      - Peter Wright
+      - Michael Chesworth
+      - Richard Marcinko
+      - John Weisman
+      - Stephen Chbosky
+      - Mary Higgins Clark
+      - V.C. Andrews
+      - Howard Stern
+      - John D. Simons
+      - Thomas J. Stanley
+      - William D. Danko
+      - Hugh Laurie
+      - Wally Lamb
+      - J G Passarella
+      - Ed McBain
+      - Arthur Nersesian
+      - Dale Carnegie
+      - L. A. Graf
+      - V. C. Andrews
+      - David McCullough
+      - Siegfried Engelmann
+      - Phyllis Haddox
+      - Elaine Bruner
+      - Stephen M. Pollan
+      - Mark Levine
+      - Nancy Harding
+      - Miep Gies
+      - Alison Leslie Gold
+      - Robert R. McCammon
+      - Stephen R. Covey
+      - Helen Hunt
+      - Alice Walker
+      - Jack Higgins
+      - Robert McCammon
+      - Will Durant
+      - Joan Goldstein
+      - Manuela Soares
+      - Harry Crews
+      - Pearl Sydenstricker Buck
+      - Lackey
+      - Fred Saberhagen
+      - Daniel Pool
+      - Helen Hennessy Vendler
+      - David E. Kaiser
+      - Calin Andrei Mihailescu
+      - Judith FARR
+      - Louise Carter
+      - Jon F Sensbach
+      - Walter Benjamin
+      - Christopher M. Clark
+      - "University Christopher Clark, MD"
+      - Mary Fitt
+      - Kathleen Freeman
+      - Professor of General Literature J M Coetzee
+      - Frederick C. Beiser
+      - Nancy G. Siraisi
+      - April Shelford
+      - Helen Vendler
+      - Merlin Donald
+      - Colin Michael Wells
+      - Richard A. POSNER
+      - Alfred D. Chandler Jr.
+      - Saul A. Kripke
+      - Walter Miller
+      - Thucydides
+      - Xenophon
+      - Babrius
+      - Phaedrus
+      - Ben Edwin Perry
+      - Plutarcus
+      - Ευριπιδες
+      - Thomas Mann
+      - William Weaver
+      - Matthew Ward
+      - François Rabelais
+      - Rosie Daley
+      - Rohinton Mistry
+      - Michael Shaara
+      - Gloria Naylor
+      - Anthony Lewis
+      - Ralph Ellison
+      - Robert Graves
+      - Владимир Владимирович Набоков
+      - Monty Python (Comedy troupe)
+      - Michael Scammell
+      - Fredric Dannen
+      - Elaine Pagels
+      - Julian Barnes
+      - Ann Beattie
+      - David Goodis
+      - Alice Munro
+      - Laurel Ulrich
+      - Wendy Wasserstein
+      - Michael Herr
+      - John M. Hull
+      - Gordon S. Wood
+      - Norman Rush
+      - Sandra Cisneros
+      - Susanna Kaysen
+      - Hermann Broch
+      - Esmeralda Santiago
+      - Virginia Lee Barnes
+      - 川端康成
+      - Louis De Bernières
+      - Philip Levine
+      - David S. Reynolds
+      - Andre Dubus
+      - Alfred Bester & Roger Zelazny
+      - Patrick McGrath
+      - Roger Penrose
+      - Valerian Ivanovich Alʹbanov
+      - Marilyn Sadler
+      - Stan Berenstain
+      - Jan Berenstain
+      - Joseph Bruchac
+      - Diana Magnuson
+      - Giuliano Hazan
+      - Francis Scott Fitzgerald
+      - Gale Group
+      - William Murray
+      - Jonathan Shay
+      - Luigi Barzini
+      - Reynolds Price
+      - Ernest Becker
+      - David Day
+      - Elisabeth Kübler-Ross
+      - Matthew Joseph Bruccoli
+      - Mary Gaitskill
+      - Tony Robbins
+      - Ursula Hegi
+      - Dinesh D'Souza
+      - William J. Bennett
+      - Michael Hague
+      - Robin Maxwell
+      - R. Gary Patterson
+      - Bob Woodward
+      - Bob Smith
+      - Chris Offutt
+      - Genevieve
+      - Howard F. Lyman
+      - Glen Merzer
+      - Andrew Solomon
+      - Loren Coleman
+      - Jerome Clark
+      - Peter Biskind
+      - Nicholas Rinaldi
+      - Iyanla Vanzant
+      - Miroslav Volf
+      - Patricia Zigarmi
+      - Drea Zigarmi
+      - James L. Stokesbury
+      - Elan Golomb
+      - Kevin Henkes
+      - Marianna Mayer
+      - Nikki Giovanni
+      - Peter Martins
+      - Kevin Trudeau
+      - Carol Adrienne
+      - V. S. Ramachandran
+      - Kent R. Weeks
+      - Judi Barrett
+      - Alice Dalgliesh
+      - Alma Flor Ada
+      - Ana M. Cerro
+      - Rachel Field
+      - Judith Viorst
+      - Deloris Jordan
+      - Roslyn M. Jordan
+      - Susan Cooper
+      - Karen Katz
+      - Nancy White Carlstrom
+      - Nancy Farmer
+      - Anne McCaffrey
+      - Sandra Boynton
+      - Preston McDaniels
+      - Pete Hautman
+      - Padraic Colum
+      - Page McBrier
+      - Michael Jordan
+      - Marissa Moss
+      - Melissa de la Cruz
+      - Cathy Hapka
+      - Charles W. Sydnor
+      - S瞨en·Kierkegaard
+      - "Sarvepalli Radhakrishnan, Sir"
+      - Richard Rorty
+      - Brian Boyd
+      - Rodney Stark
+      - Robert D. Putnam
+      - Robert Leonardi
+      - Raffaella Nanetti
+      - Amy Gutmann
+      - John Nash
+      - Richard B. Alley
+      - Yirmiyahu Yovel
+      - Harry G. Frankfurt
+      - Ruth Heller
+      - Susan Hill
+      - Keith Badman
+      - Fred Goodman
+      - Ben Karlin
+      - David Javerbaum
+      - Stephen Rebello
+      - Pantelis Michelakis
+      - Arthur Phillips
+      - Paul Krugman
+      - Robin Wells
+      - Kathryn Graddy
+      - Ruth Downie
+      - John MacKenzie
+      - John MacDonald MacKenzie
+      - Michael Cox
+      - Adrian Guelke
+      - Fiona Stephen
+      - Jacqueline Winspear
+      - Edward C. Klatt
+      - Stanley Leonard Robbins
+      - Vinay Kumar
+      - Marlo Morgan
+      - Beatrix Potter
+      - Anne Rampling
+      - Ja Jance
+      - Judith A. Jance
+      - Max Allan Collins
+      - Charles Petzold
+      - David LeBlanc
+      - Kay Arthur
+      - Elizabeth George
+      - Margaret Feinberg
+      - Jacqueline Ann
+      - Sheila Zenk
+      - Western Sonoma County Historical Society
+      - James E. Ingram
+      - Lori Grove
+      - Mary M. Flekke
+      - Sarah E. MacDonald
+      - Randall M. MacDonald
+      - The Print and Photograph Department of the Library Company of Philadelphia
+      - Annalee Allen
+      - John Peel
+      - John Grogan
+      - Sara Barton-Wood
+      - Jim Toomey
+      - Bill Watterson
+      - Scott Adams
+      - Robert M. Sapolsky
+      - Colm Toibin
+      - P.G. Wodehouse
+      - Sarah Ban Breathnach
+      - Stuart Y. Silverstein
+      - P.D. James
+      - Martin E. P. Seligman
+      - John Eisenhower
+      - Richard Reeves
+      - Philip Norman
+      - Mark Zwonitzer
+      - Charles Hirshberg
+      - Bob Dylan
+      - Jeannette Walls
+      - Evan Thomas
+      - John Knowles
+      - Jane Robins
+      - Walter Isaacson
+      - Maile Meloy
+      - Donna Goldberg
+      - Doris Kearns Goodwin
+      - Narendra Jadhav
+      - Dr. Phil McGraw
+      - Donna Dale Carnegie
+      - Pearl S. Buck
+      - Miasha
+      - Ariel Levy
+      - Elaine Sciolino
+      - Chuck Klosterman
+      - M. D. Roizen (Michael F.)
+      - Michael F. Roizen
+      - New Scientist
+      - Rebecca R. Merrill
+      - Virginia C. Andrews
+      - Kurt Vonnegut Jr.
+      - Lee Stringer
+      - Paul Ruditis
+      - Carol Higgins Clark
+      - Rose Tremain
+      - Blink-182
+      - Anne Hoppus
+      - Tom Delonge
+      - Mark Hoppus
+      - Travis Barker
+      - Mel Odom
+      - Indu Sundaresan
+      - David Weber
+      - John Ringo
+      - Paul Kemprecos
+      - Amy Sohn
+      - Sarah Jessica Parker
+      - Terry Lee Rioux
+      - John le Carre
+      - Betsy Lewin
+      - Stephen E. Ambrose
+      - Amir D. Aczel
+      - Kresley Cole
+      - Ann-Marie MacDonald
+      - Christie Golden
+      - Jennifer Weiner
+      - Saul Williams
+      - Blizzard Entertainment
+      - Judith McNaught
+      - Greg Cox
+      - Danny McBride
+      - Dr. Barbara A. Mowat
+      - Paul Werstine
+      - Barbara A. Mowat
+      - Margaret Brantley
+      - Nina Baym
+      - Willa Cather
+      - Alyssa Harad
+      - David R. George III
+      - Harville Hendrix
+      - Shannon Holmes
+      - Wen Spencer
+      - Eric Flint
+      - Dave Freer
+      - Patricia Scanlan
+      - Gemma O'Connor
+      - Sarah Webb
+      - Adrian McKinty
+      - Dan Birlew
+      - Casey Loe
+      - Laura M. Parkinson
+      - Tim Bogenn
+      - Rick Barba
+      - Brady Games
+      - BradyGames
+      - Doug Walsh
+      - BradyGames (Firm)
+      - Selina Hastings
+      - David Barsamian
+      - Sarah Kay
+      - Glyn Daly
+      - Anthony Giddens
+      - Simon Griffiths
+      - Jill Mansell
+      - Barbara Nadel
+      - Lesley Glaister
+      - Edward Gorey
+      - Jay McInerney
+      - Natalie Babbitt
+      - Michael Hofmann
+      - Peter Allen
+      - Donna Tartt
+      - Emma Forrest
+      - Nora Ephron
+      - Adam Hargreaves
+      - Roger Hargreaves
+      - Diana Cooper
+      - J. D. Robb
+      - Simon Anholt
+      - Ernle Bradford
+      - Bryan Magee
+      - Larry Bond
+      - Ellis Peters
+      - Mitch Albom
+      - Tina Reilly
+      - Gail Herman
+      - Dashiell Hammett
+      - Gray Jolliffe
+      - James M. Cain
+      - Nick McCarty
+      - Brigid Avison
+      - Brenda Walpole
+      - Stephen Oppenheimer
+      - D. M. Thomas
+      - Alistair Moffat
+      - Steve Martin
+      - Hugh Bicheno
+      - Richard Holmes
+      - Emily Barr
+      - Susan Vreeland
+      - Roger Highfield
+      - Michael Jecks
+      - C. S. Friedman
+      - Tad Williams
+      - Julie E. Czerneda
+      - Phil Jimenez
+      - Laura Buller
+      - Kristin Lund
+      - Simon Beecroft
+      - Kerrie Dougherty
+      - "DK Publishing, Inc"
+      - David Burnie
+      - Don E. Wilson
+      - Roy Thomas
+      - Todd McFarlane
+      - Robert Ervin Howard
+      - Bonnie Burton
+      - Marc Dubin
+      - Joanne Fluke
+      - Lori Foster
+      - Morgan Leigh
+      - Jen Nicholas
+      - Jordan Summers
+      - Sally Smith O'Rourke
+      - Randy Leffingwell
+      - Starr Smith
+      - Don Macmillan
+      - Wayne G. Broehl
+      - Julius Caesar
+      - F. P. Long
+      - Cheryl Walker
+      - Patricia Schultz
+      - Heidi Eisenberg Murkoff
+      - Arlene Eisenberg
+      - Sandee Eisenberg Hathaway
+      - Jean Marzollo
+      - Linda Glaser
+      - Karen Zeinert
+      - Mary Miller
+      - Debra Hess
+      - David Chilton
+      - Mark Yarnell
+      - Rene Reid Yarnell
+      - Rene Yarnell
+      - Mark Cohen
+      - Kaizen Media Group (CRT)
+      - Craig Keller
+      - Michael Littlefield
+      - Prima Games
+      - Peter Olafson
+      - Katherine Beckett
+      - Theodore Sasson
+      - Reader's Digest
+      - Abd Al-Hayy Moore
+      - Christian Birmingham
+      - Mervyn Peake
+      - Megan McDonald
+      - Peter Reynolds
+      - Richard Platt
+      - Ernest Drake
+      - Dugald Steer
+      - Dyan Sheldon
+      - Chris Van Dusen
+      - Jan M. Kriebs
+      - Carolyn L. Gegor
+      - Douglas Downing
+      - Richard D. Bartlett
+      - Patricia Bartlett
+      - David A. Stewart
+      - Elizabeth Stewart
+      - Jessalyn Little
+      - Milan Trenc
+      - Michael R. Phillips
+      - Norman L. Geisler
+      - Scott Speck
+      - Evelyn Cisneros
+      - James L. Roberts
+      - Gary Carey
+      - Tom Morris
+      - Sabine Walter
+      - Liz Palika
+      - Janet Valade
+      - Stephen P. Maran
+      - Kelly McGrath Vlcek
+      - Maureen Kelly
+      - Kate Maurer
+      - Alex Went
+      - Carla Lynn Stockton
+      - Marie Kalil
+      - Bruce Edward Walker
+      - Susan Van Kirk
+      - Barbara Fairchild
+      - Robert Silverberg
+      - Robert Jordan
+      - Cory Doctorow
+      - Juliet Marillier
+      - Andrew Offutt
+      - Terry Goodkind
+      - Thomas Harlan
+      - James Mallory
+      - J. V. Jones
+      - Charles Stross
+      - Preston Douglas
+      - Susanna Clarke
+      - Christopher Priest
+      - Arthur Edward Waite
+      - David Simon
+      - Edward Burns
+      - Surya Das
+      - Lama Surya Das
+      - Quincy Jones
+      - Nick Cook
+      - Albert DeMeo
+      - Mary Jane Ross
+      - Julia Indichova
+      - Mark Bittman
+      - Kurt Eichenwald
+      - Lidia Bastianich
+      - Jay Jacobs
+      - J. Maarten Troost
+      - Sarah MacDonald
+      - Jane Moore
+      - Louann Brizendine
+      - Lois Beckwith
+      - Greg Behrendt
+      - Amiira Ruotola-Behrendt
+      - Lonn Friend
+      - Karen Essex
+      - Jack Frost
+      - Maggie Black
+      - Deirdre Le Faye
+      - Benjamin J. Sadock
+      - Virginia A. Sadock
+      - John Phillip Carroll
+      - Norman Kolpas
+      - Garth Ennis
+      - Jeff Youngquist
+      - John McCrea
+      - Bill Sienkiewicz
+      - Goran Parlov
+      - Joss Whedon
+      - Grant Morrison
+      - Frank Quitely
+      - Tom DeFalco
+      - John C. Maxwell
+      - Thomas G. Addington
+      - Donald Miller
+      - Bodie Thoene
+      - Brock Thoene
+      - George Grant
+      - Pamela Ball
+      - P. J. Parrish
+      - Tamara Thorne
+      - Phyllis Eisenstein
+      - Alex Eisenstein
+      - Rick Riordan
+      - Rebecca Hagan Lee
+      - John Baxter
+      - Kim Newman
+      - Bartle Bull
+      - Ira Levin
+      - John Dickson Carr
+      - Mike Ashley
+      - Eric Brown
+      - Clint Willis
+      - Lawrence Sutin
+      - Charles G. Waugh
+      - Martin Harry Greenberg
+      - Marilyn Singer
+      - Julie Aigner-Clark
+      - Melissa Kantor
+      - Ned Vizzini
+      - Ben Mikaelsen
+      - Slade Morrison
+      - Deborah Gregory
+      - Paul Mantell
+      - "Disney Book Group,"
+      - Susan Ring
+      - Laura Godwin
+      - Ann M. M. Martin
+      - Disney Book Group
+      - Marcy Kelman
+      - Nigella Lawson
+      - Drew Carey
+      - Glen David Gold
+      - Jean Rabe
+      - David Noonan
+      - Paul Crilley
+      - Patrick M. Lencioni
+      - Margaret Thaler Singer
+      - James M. Kouzes
+      - Barry Z. Posner
+      - Donna Freitas
+      - Neil Cole
+      - Jason E. King
+      - Miroslav Sasek
+      - David Bowie
+      - Stephen Biesty
+      - Barbara Newman
+      - Gill Tomblin
+      - Darcey Bussell
+      - Mark O'Shea
+      - Tim Halliday
+      - Robert W. Dolan
+      - Ann Bausum
+      - Jon Lloyd Dunn
+      - Jonathan K. Alderfer
+      - Broughton Coburn
+      - David Breashears
+      - National Geographic Society (U.S.)
+      - Bard Thompson
+      - Christopher Hugh Partridge
+      - Howard W. Stone
+      - James O. Duke
+      - Rolland Baker
+      - Heidi Baker
+      - Shūsaku Endō
+      - Elizabeth Economy
+      - Margaret Weiss
+      - Lily Trokenberg Hechtman
+      - Gabrielle Weiss
+      - William L. Shirer
+      - Margaret A. Weitekamp
+      - Sadegh Hedayat
+      - Ṣādiq Hidāyat
+      - Jean Stein
+      - Candace Bushnell
+      - Tim Flannery
+      - P. J. O'Rourke
+      - George Crile
+      - Sanyika Shakur
+      - J. J. Connolly
+      - Sherman Alexie
+      - Charles Frazier
+      - George Vithoulkas
+      - H. Edwin Young
+      - Helen L. Taylor
+      - Dava Sobel
+      - Neil Armstrong
+      - Guy Ogilvy
+      - Tom Standage
+      - William J.H. Andrewes
+      - Kevin O'Malley
+      - William Stacy Johnson
+      - Richard Bauckham
+      - Mark S. Smith
+      - Edgar Rice Burroughs
+      - C. J. Cutcliffe Hyne
+      - Black Elk
+      - John Gneisenau Neihardt
+      - Alexis N. Petri
+      - Lori Utecht
+      - Binjamin W. Segel
+      - Bruce Coville
+      - Tim Raglin
+      - Adèle Geras
+      - Shelagh McNicholas
+      - Evelyn J. Hinz
+      - Barry Chubin
+      - Echo Heron
+      - Maureen Gallery Kovacs
+      - Brian Rotman
+      - Gary Handwerk
+      - Shusaku Endo
+      - Elliott Currie
+      - John Nichols
+      - Eliot Asinof
+      - John P. Diggins
+      - Josiah Bunting
+      - Doug Stanton
+      - Elise Broach
+      - Martin Gilbert
+      - Juan Bonilla
+      - Eric Homberger
+      - Stacy Schiff
+      - Elie Wiesel
+      - Diane Wolkstein
+      - Elsa Henriquez
+      - Karen Kushner
+      - Esther H. Schor
+      - Wynn Kapit
+      - Lawrence M. Elson
+      - Elaine Nicpon Marieb
+      - Katja Hoehn
+      - Elaine N. Marieb
+      - Robert B. Leighton
+      - Matthew Linzee Sands
+      - Beth Moore
+      - Susan Oliver
+      - Marvin N. Olasky
+      - Judith M. Meloy
+      - Michael C. J. Putnam
+      - John Gibson Warry
+      - Richard Slotkin
+      - John S. D. Eisenhower
+      - Marc J. Seifer
+      - Thomas Ryan
+      - Ruby Ann Boxcar
+      - Charles A. Coulombe
+      - Robert A. Harris
+      - Michael S. Lasky
+      - Edward Lear
+      - Viktor Emil Frankl
+      - Federico Garcia Lorca
+      - Gaston Bachelard
+      - Clement Greenberg
+      - Fred Pearce
+      - John Burt
+      - Cornelia Maude Spelman
+      - Sīmīn Dānishvar
+      - Albert Einstein
+      - Fatemeh Keshavarz
+      - Weldon Thornton
+      - James G. Leyburn
+      - Detlev J. K. Peukert
+      - Lisa McCourt
+      - John Wooden
+      - Steven Brust
+      - Scott Zrubeck
+      - Leo Nikolayevich Tolstoy
+      - Stanisław Lem
+      - Hans Jonas
+      - Eleonore Jonas
+      - Graeme Base
+      - Laurent de Brunhoff
+      - Mighty Fine Inc.
+      - Simon Wells
+      - John Knoll
+      - C. D.B. Bryan
+      - Joan Sinclair
+      - Charles Pierre Baudelaire
+      - Wilfred Owen
+      - Boris Leonidovich Pasternak
+      - Gary Snyder
+      - G. Aroul
+      - Norman Thomas Di Giovanni
+      - Luís Fernando Veríssimo
+      - Robin Davis
+      - Eric Martin
+      - Frankie Frankeny
+      - Wesley Martin
+      - Steven Heller
+      - Louise Fili
+      - John Miller
+      - Genevieve Morgan
+      - Stephen Sansweet
+      - Peter Vilmur
+      - "Metropolitan Museum of Art (New York, N.Y.)"
+      - Jon M. Gibson
+      - Melissa Painter
+      - David Weisman
+      - Vincent F. Hopper
+      - Erving Goffman
+      - W. E. B. Du Bois
+      - Ben Bova
+      - Vella Munn
+      - Jo Clayton
+      - William Irwin
+      - Mark T. Conard
+      - Aeon J. Skoble
+      - David Baggett
+      - Shawn Klein
+      - James B. South
+      - Gregory Bassham
+      - Eric Bronson
+      - Thomas V. Morris
+      - Matt Morris
+      - Kevin S. Decker
+      - Jason T. Eberl
+      - Richard Greene
+      - K. Silem Mohammad
+      - Michael Baur
+      - Steven Baur
+      - Gary L. Hardcastle
+      - George A. Reisch
+      - United Feature Syndication
+      - Edmund Morris
+      - Henry Rider Haggard
+      - James Danly
+      - Iain Levison
+      - Firoozeh Dumas
+      - Sarah Dunant
+      - Victor Davis Hanson
+      - Azar Nafisi
+      - Rudyard Kipling
+      - Victoria Finlay
+      - Cornell Woolrich
+      - Reza Aslan
+      - Walter Van Tilburg Clark
+      - Tracy Kidder
+      - Nassim Taleb
+      - Alan U. Schwartz
+      - Caleb Carr
+      - Bobby Henderson
+      - Suzanne Farrell
+      - Toni Bentley
+      - Elizabeth Stuart Phelps
+      - Carol Farley Kessler
+      - Eric J. Hobsbawm
+      - Elaine Showalter
+      - Ronna Johnson
+      - Nancy McCampbell Grace
+      - Norma Goldman
+      - Jacob E. Nyenhuis
+      - Michael Rossi
+      - Antonio Gramsci
+      - Sarah M. Anderson
+      - Karen Swenson
+      - Kathryn Hughes
+      - Otis Williams
+      - Patricia Romanowski
+      - Patricia Romanowski Bashe
+      - Dawn B. Sova
+      - Branko·Sou閏ek
+      - William A. Cohen
+      - Aimé Césaire
+      - Clayton Eshleman
+      - Annette Smith
+      - Ansel Adams
+      - Jerry Ahern
+      - Karen A. Bale
+      - Judith Lansdowne
+      - Debbie Raleigh
+      - Lisa Jackson
+      - Jennifer Coburn
+      - Liz Ireland
+      - James K. Lowers
+      - J. L. Roberts
+      - L. David Allen
+      - Robert H. Lynn
+      - Marianne Sturman
+      - Carl Senna
+      - Francois Marie Arouet
+      - C. A. Peek
+      - Robert J. Milch
+      - Brian Johnston
+      - Mary Ellen Snodgrass
+      - Maryam Riess
+      - Rosetta James
+      - Jeffrey Fisher
+      - John Guare
+      - Tennessee Williams
+      - Emily Mann
+      - Sarah Louise Delany
+      - Frances Goodrich
+      - Albert Hackett
+      - Wendy Ann Kesselman
+      - David Lindsay-Abaire
+      - David Fishelson
+      - Aaron Leichter
+      - Edward Dorn
+      - Lisa Lowe
+      - Christopher Pinney
+      - Nicolas Peterson
+      - Nicholas Thomas
+      - Carol Dommermuth-Costa
+      - Katherine E. Krohn
+      - Marlene Targ Brill
+      - Juliette Aristides
+      - Steve Miller
+      - Stephen Cox
+      - Henri J. M. Nouwen
+      - Jason King
+      - J. Ed Komoszewski
+      - M. James Sawyer
+      - Daniel B. Wallace
+      - Kris E. Lane
+      - Peter Demetz
+      - Chris Jones
+      - Leonard Orr
+      - Tom Fahy
+      - Stephen Burn
+      - Ann Finding
+      - Rainer Funk
+      - Philip Nel
+      - Julie Mullaney
+      - Frederick Copleston
+      - Frank Furedi
+      - María Antonia Garcés
+      - LaVonne Neff
+      - James K. Beilby
+      - Paul R. Eddy
+      - Henri Blocher
+      - Peter G. Bolt
+      - Judith Cornell
+      - Mary Engelbreit
+      - George Beahm
+      - Leslie Gross Portney
+      - Mary P. Watkins
+      - R. C. Sproul
+      - Isabella Alden
+      - Jerry B. Jenkins
+      - Tim Lahaye
+      - Gary Smalley
+      - Watchman Nee
+      - Tim LaHaye
+      - Philip Wesley Comfort
+      - David Thompson
+      - Douglas Clegg
+      - Constance O'Banyon
+      - Evelyn Rogers
+      - Bobbi Smith
+      - Morag McKendrick Pippin
+      - McGraw-Hill Education
+      - Charles R. Swindoll
+      - Phil Hodges
+      - Ted Dekker
+      - Andreas J. Köstenberger
+      - Peter Thomas O'Brien
+      - Arthur Bennett
+      - Sinclair B. Ferguson
+      - Katie Elliott
+      - Ian Martin
+      - Murray Smith
+      - Mark Kermode
+      - Audrey Wood
+      - Gavin Baddeley
+      - Alan Moore
+      - Eddie Campbell
+      - Pete Mullins
+      - Henepola Gunaratana
+      - Thomas Goltz
+      - Chris Andrews
+      - Jeffrey H. Tigay
+      - William T. Rasmussen
+      - Beryl Markham
+      - Dōgen
+      - Zen Master Dogen
+      - Andres Duany
+      - Elizabeth Plater-Zyberk
+      - Jeff Speck
+      - Donald Goines
+      - Brian Doyle
+      - Mary Miller Doyle
+      - Nick Rennison
+      - Bob Drury
+      - Thomas Clavin
+      - Donna Leon
+      - George MacDonald
+      - Edward Estlin Cummings
+      - E. E. Cummings
+      - Leo Rauch
+      - Thomas Hobbes
+      - Edwin M. Curley
+      - Charles B. Guignon
+      - Peter Meineck
+      - Steven Lattimore
+      - René Descartes
+      - George Maximilian Anthony Grube
+      - John Madison Cooper
+      - Sarah Ruden
+      - Edward Gilman Slingerland
+      - Merritt Yerkes Hughes
+      - Philip J. Ivanhoe
+      - Bryan W. Van Norden
+      - C. D. C. Reeve
+      - Georges Bataille
+      - Jack Coulehan
+      - John L. Coulehan
+      - Patricia Hampl
+      - Sharon Rose Wilson
+      - Thomas B. Friedman
+      - Shannon Eileen Hengen
+      - Roger D. Masters
+      - Christopher Kelly
+      - Jean Houston
+      - David Salo
+      - Greg Taylor
+      - Heinrich Cornelius Agrippa von Nettesheim
+      - Edward T. Welch
+      - Jerzy Kosinski
+      - James Plath
+      - Richard B. Primack
+      - Saint Gertrude (the Great)
+      - Harpo Marx
+      - Rowland Barber
+      - John Oller
+      - Giorgio De Santillana
+      - Hertha von Dechend
+      - David W. Mount
+      - Robert Bringhurst
+      - R. L. Geneve
+      - Alfred Hitchcock
+      - Roberts Liardon
+      - Don Colbert
+      - Sharon Green
+      - Don Ihde
+      - James Wallace
+      - Jim Erickson
+      - Stephen Pollan
+      - Mary Ashworth
+      - Patricia Wakefield
+      - Andrew Heintzman
+      - Evan Solomon
+      - James Hawkins
+      - John Perkins
+      - "Thomas E. Woods, Jr."
+      - Mark Steyn
+      - Steven F. Hayward
+      - Ray McAllister
+      - Professor Audre Lorde
+      - Audre Lorde
+      - Jane Jeong Trenka
+      - Julia Chinyere Oparah
+      - Sun Yung Shin
+      - Jim Northrup
+      - Davina Thomas
+      - Jim Supica
+      - Richard Nahas
+      - James Jerome Gibson
+      - Peter Kreeft
+      - James Brodrick
+      - Alex Jones
+      - Joseph Pearce
+      - David McClung
+      - Peter A. Schaerer
+      - Saint Augustine (Bishop of Hippo.)
+      - Saint Augustine of Hippo
+      - Joseph Mary Leleu
+      - Nicholas P. White
+      - Dan Millman
+      - Karen Tei Yamashita
+      - Edward F. Edinger
+      - Elizabeth Clare Prophet
+      - Alex Constantine
+      - Nicholas Johnson
+      - Joaquin Miller
+      - David Young
+      - Nikola Tesla
+      - Ralph Ginzburg
+      - Yosef Ben-Jochannan
+      - Gustave Le Bon
+      - MaryAnn F. Kohl
+      - Kim Solga
+      - Rebecca Van Slyke
+      - Michael J. Bradley
+      - Pavel Tsatsouline
+      - Mark Shepard
+      - Margaret Sanborn
+      - Ken Knabb
+      - Marina T︠S︡vetaeva
+      - Margaret Wettlin
+      - Walter W. Arndt
+      - Jamey Gambrell
+      - Elizabeth Hardwick
+      - James Fenimore Cooper
+      - Samuel Langhorne Clemens
+      - Victor and Lin Salamo editors Fischer
+      - Susan K. Harris
+      - Susan R. Harris
+      - Rolland Hein
+      - Lena Tabori
+      - Alice Wong
+      - Chris Prentiss
+      - Christopher Gray
+      - J. Keith Cheetham
+      - "Overeaters Anonymous, Inc. (U.S.)"
+      - Edward R. Tufte
+      - Juliette De Bairacli-Levy
+      - Heather Wood
+      - Preston B. Nichols
+      - Peter Moon
+      - David R. Hawkins
+      - Teddy F. Bader
+      - Marilyn Bader
+      - Russell Kick
+      - Woody Hochswender
+      - Greg Martin
+      - Ted Morino
+      - Cassie Brown
+      - Wendy Mitchell
+      - Julie A. Schrader
+      - Heidi Fleiss
+      - Libby Keatinge
+      - Bill Phillips
+      - Kim Wilson
+      - Jeanne Treat
+      - Galadriel Waters
+      - Astre Mithrandir
+      - Barbara A. Turner
+      - Noah Eli Gordon
+      - David Thomas
+      - Darwin Porter
+      - East Bay Municipal Utility District (Calif.)
+      - W. A. MacDevitt
+      - James H. Ford
+      - Andre Duza
+      - Sean J. Jordan
+      - W. Frederick Zimmerman
+      - Monica Drake
+      - David Heinemeier Hansson
+      - Leon Breedt
+      - Johanna Rothman
+      - Esther Derby
+      - David A. Ufer
+      - Zak Smith
+      - Mike Mason
+      - Peter A. Lillback
+      - Z. A. Recht
+      - Bowie Ibarra
+      - Travis Adkins
+      - Kathleen Rooney
+      - "Fodor's Travel Publications, Inc. Staff"
+      - Laura Furman
+      - Chris Bohjalian
+      - Ellen Meloy
+      - Charles C. Mann
+      - Anna Deavere Smith
+      - Charles Ray Willeford
+      - James Gleick
+      - Michio Kaku
+      - Chris Chester
+      - W. Somerset Maugham
+      - Gerald Posner
+      - Janna Levin
+      - Lidia Matticchio Bastianich
+      - David Nussbaum
+      - Tanya Bastianich Manuali
+      - Nikolaĭ Vasilʹevich Gogolʹ
+      - Julia Child
+      - Alex Prud'homme
+      - Chimamanda Ngozi Adichie
+      - Irene Nemirovsky
+      - Gerard Auzet
+      - Rajiv Chandrasekaran
+      - Gale Gand
+      - Julia Moskin
+      - Rosalind Miles
+      - Les Standiford
+      - Thom Hartmann
+      - Diane Haeger
+      - Tyler Florence
+      - Ann H. Coulter
+      - Adam Mansbach
+      - Daniel T. Max
+      - Marc Parent
+      - Lisa See
+      - Laurie Notaro
+      - Jon Meacham
+      - Rene Gutteridge
+      - Alan P. Lightman
+      - Deirdre English
+      - Russell Shorto
+      - Michael Mignola
+      - Max Barry
+      - Timothy B. Tyson
+      - Chaïm Potok
+      - Henning Mankell
+      - Kevin Brockmeier
+      - Howell D. Chickering
+      - Trevanian
+      - Jose Luis Garcia-Lopez
+      - Warren Ellis
+      - Mark Waid
+      - Leinil Francis Yu
+      - Robert Kanigher
+      - Bob Haney
+      - Dave McKean
+      - Duncan Fegredo
+      - Howard Chaykin
+      - Michelle Madsen
+      - Bill Willingham
+      - Mike Carey
+      - Glenn Fabry
+      - Tony Luke
+      - Brian Azzarello
+      - Marcelo Frusin
+      - Sam Kieth
+      - J. H. Williams
+      - José Villarrubia
+      - Matthew Sturges
+      - Tony Akins
+      - Andrew Pepoy
+      - Joe Kubert
+      - Kurt Busiek
+      - Fabian Nicieza
+      - Pete Woods
+      - Len Wein
+      - Gerry Conway
+      - José Luis García-López
+      - Alexandra Robbins
+      - Gayden Metcalfe
+      - Charlotte Hays
+      - Charles R. Miller
+      - Darren R. Weissman
+      - Jean-Benoît Nadeau
+      - Julie Barlow
+      - Jackie French Koller
+      - Chris Tait
+      - Lucy Corvino
+      - Martha Hailey Dubose
+      - Martha Hailey
+      - Allen Carr
+      - David Finck
+      - James Krenov
+      - Martin Woodside
+      - Jamel Akib
+      - Catherine Nichols
+      - Dan Glover
+      - Bruce King
+      - AnaLouise Keating
+      - David A. Neiwert
+      - J. Chance
+      - A. Siewers
+      - Robert Arp
+      - Jean de Brunhoff
+      - Julia Golding
+      - John Tosh
+      - Sean Lang
+      - Hardpress
+      - William L Robinson
+      - Saint Cyril (patriarch of Alexandria)
+      - Mrs John Farrar
+      - Simon Cleveland
+      - Python Bonkers
+      - Mikhail Afanasevich Bulgakov
+      - Harrison E. Livingstone
+      - Elizabeth Miller
+      - Yu Aida
+      - Kaori Naruse
+      - Junichi Satou
+      - Chris Fabry
+      - John Granger
+      - Stephanie Reents
+      - Frederic Will
+      - Bernard Knox
+      - Jesse Gale
+      - Julie Leto
+      - Heather Jarman
+      - Andrew Dennis
+      - Sherrilyn Kenyon
+      - Jaid Black
+      - Marta Acosta
+      - Roberta Gellis
+      - Rosemary Edghill
+      - Eric Bischoff
+      - Jeremy Roberts
+      - Ellen Guon
+      - Lauren Levin
+      - Lauren Blitzer
+      - Robert C. O'Brien
+      - Liz Tuccillo
+      - Raina Telgemeier
+      - Lora Leigh
+      - Elisa Adams
+      - Sylvia Day
+      - Anna J. Evans
+      - Denise A. Agnew
+      - B. J. McCall
+      - Gilbert Murray
+      - Hayao Miyazaki
+      - Hiromu Arakawa
+      - Rumiko Takahashi
+      - Tomo Matsumoto
+      - Tite Kubo
+      - Yukito Kishiro
+      - Kyoko Hikawa
+      - Tsugumi Ohba
+      - Takeshi Obata
+      - Yumi Hotta
+      - Hirohiko Araki
+      - Takashi Hashiguchi
+      - Kazuo Umezu
+      - Masaki Yamada
+      - Rob Kidd
+      - Shaun Tomson
+      - Patrick J. Moser
+      - Dennis Slifer
+      - Gia Bathory Al Babel
+      - Nikki Stafford
+      - Robert N. Munsch
+      - Saoussan Askar
+      - Michael Martchenko
+      - John Kay
+      - John Einarson
+      - Christopher D. Jiggins
+      - Sarah Fielding
+      - Erin St. Claire
+      - Chieri Uegaki
+      - Stephane Jorisch
+      - Anita Thompson
+      - John E. Upledger
+      - Theodore Sturgeon
+      - Paul Pitchford
+      - Régis Debray
+      - David Dalton
+      - Michelle Lovric
+      - Anya Seton
+      - Patricia Hickman
+      - Robbie Stamp
+      - Paul Simpson
+      - Alexander Payne
+      - Jim Taylor
+      - Mira Nair
+      - George Washington
+      - John Carratello
+      - Patty Carratello
+      - Charles McKeown
+      - Jess Borgeson
+      - Adam Long
+      - Daniel Singer
+      - Frank Wedekind
+      - Paul Kirk
+      - Martha Heineman Pieper
+      - William Joseph Pieper
+      - Beth Hensperger
+      - Julie Kaufmann
+      - Daniel Horowitz
+      - Janet G. Woititz
+      - Jessica Tarahata Hagedorn
+      - Michael E. Soulé
+      - Michael E. Marine Conservation Biology Institute
+      - Patrice Cassedy
+      - Paul Perry
+      - Ken Babbs
+      - Hubert Selby
+      - Perseus
+      - John Waters
+      - John Buffalo Mailer
+      - David Wellington
+      - Running Press
+      - Sarah Susanka
+      - Kira Obolensky
+      - Stéphane Heuet
+      - Stanislas Brézet
+      - Billy Mills
+      - Rick Hicks
+      - Kathy Hicks
+      - Ann O'Leary
+      - John Mason
+      - Kenneth H. Blanchard
+      - R. F. Laird
+      - Robert F. Laird
+      - Riki Anne Wilchins
+      - Klaus Janson
+      - Kelley Jones
+      - Jon J. Muth
+      - Steve Dillon
+      - Charles Vess
+      - Mike Dringenberg
+      - Todd Klein
+      - Danny Vozzo
+      - Chris Bachalo
+      - Mark Buckingham
+      - Walter Simonson
+      - Mark Reeve
+      - John Ridgway
+      - Howard V. Chaykin
+      - David Tischman
+      - Chris Weston
+      - Ivan Reis
+      - Ray Kryssing
+      - Humberto Ramos
+      - Jill Thompson
+      - Bryan Hitch
+      - Mark Millar
+      - Galina Krasskova
+      - Mimi Dietrich
+      - Barbara Wright
+      - Vivian Kogan
+      - Boris Vian
+      - John O'Brien
+      - Tom Canty
+      - Phil Brucato
+      - Aaron Rosenberg
+      - Mark Hunter
+      - Nancy Schultz-Yetter
+      - Steve Kenson
+      - Ian Lemke
+      - Nicky Rea
+      - Stormie Omartian
+      - Lewis Nordan
+      - Bob Tarte
+      - Mark Bailey
+      - Sara Gruen
+      - Saint Augustine (of Hippo)
+      - Saint Augustine
+      - James W. Loewen
+      - Haruko Taya Cook
+      - Theodore F. Cook
+      - Mitsou Ronat
+      - Chris Wrigley
+      - Antonio Polito
+      - Richard H. Minear
+      - Kathy Emery
+      - Ellen Reeves
+      - Michael Parenti
+      - Allan Janik
+      - Stephen Toulmin
+      - Scott Leonard
+      - Megan McMorris
+      - Jamie Jensen
+      - Diana Butler Bass
+      - Joseph Stewart-Sicking
+      - Henry L. Gates
+      - David Bellos
+      - Ryotaro Shiba
+      - Stephen Mark Rainey
+      - Sam Johnson
+      - Keith Herber
+      - Sandy Petersen
+      - Lynn Willis
+      - Jerry Jones
+      - William Jones
+      - Adam Gauntlett
+      - Cody Goodfellow
+      - John Baldessari
+      - Philip Malcolm Waller Thody
+      - Justin O'Brien
+      - Ray Oldenburg
+      - CLAMP
+      - Janwillem Van de Wetering
+      - Stan Jones
+      - Cara Black
+      - "Saint Augustine, Bishop of Hippo"
+      - Thomas Paul Thigpen
+      - Satoru Kannagi
+      - Hinako Takanaga
+      - Sachiko Sato
+      - Eiki Eiki
+      - Yukine Honami
+      - Hotaru Odagiri
+      - Masamune Shirow
+      - Dana Lewis
+      - Frederik L. Schodt
+      - Toren Smith
+      - Tom Orzechowski
+      - Timothy Truman
+      - Tom Raney
+      - Michael Zulli
+      - Haden Blackman
+      - John Ostrander
+      - Scott Allie
+      - Jan Duursema
+      - Stephen Thompson
+      - Tomas Giorello
+      - Dan Parsons
+      - Ray Krissing
+      - Gabrielle Euvino
+      - Judith Baughman
+      - Lynda Barry
+      - Lao-tzu
+      - Jerome P. Seaton
+      - Fritjof Capra
+      - Ina May Gaskin
+      - Stephen Gaskin
+      - Victor Skrebneski
+      - Richard Christiansen
+      - Mariia
+      - Joseph McMoneagle
+      - Steven C. Hayes
+      - Spencer Xavier Smith
+      - James Brian Stiff
+      - Paul A. Mongeau
+      - Robert F. Stock
+      - Robert Stock
+      - James McBride
+      - Kathleen A. Brehony
+      - Danzy Senna
+      - Elizabeth Wurtzel
+      - Staci Haines
+      - Tristan Taormino
+      - Andrei Codrescu
+      - Laura Rosenthal
+      - Thomas Robert May
+      - Bard E. O'Neill
+      - Jonathan B. Parshall
+      - Anthony P. Tully
+      - David Thomas Lord
+      - Henry Mintzberg
+      - Melody Carlson
+      - Foster Cline
+      - Jim Fay
+      - Echo Bodine
+      - Echo L. Bodine
+      - Eckhart Tolle
+      - DC Talk (Musical group)
+      - DC Talk
+      - Tim Burton
+      - Grif Stockley
+      - Joanna Weaver
+      - David Gregory
+      - Linda Hall
+      - Alan Aldridge
+      - Beatles
+      - Robert Wilson
+      - Arthur Agatston
+      - Marthe Le Van
+      - Terry Taylor
+      - International Code Council
+      - Patricia Justine Tumang
+      - Jenesha de Rivera
+      - Yefim Gordon
+      - Peter Davison
+      - Peter Menzel
+      - Faith D'Aluisio
+      - Ken Haedrich
+      - Lew Nichols
+      - Doyle Brunson
+      - Sun-tzu
+      - Gerald A. Michaelson
+      - Jodee Blanco
+      - Stanley Wiater
+      - Christopher Golden
+      - Hank Wagner
+      - Robert A. M. Stern
+      - David Fishman
+      - Jacob Tilove
+      - Toshio Nakamura
+      - John Piper
+      - Frank E. Peretti
+      - Justin Taylor
+      - Harry Hamernik
+      - Heidi Boyd
+      - Marie Rudisill
+      - James Coleman Simmons
+      - Tim Downs
+      - Ben Schott
+      - Javier Cercas
+      - Anne McLean
+      - Robert Kirkman
+      - Charlie Adlard
+      - Cliff Rathburn
+      - Ben Templesmith
+      - Miriam Toews
+      - John Worthen
+      - Debra K. Marquart
+      - Kate Braverman
+      - Institute Professor & Professor of Linguistics (Emeritus) Noam Chomsky
+      - Jessica Porter
+      - Marcus Romer
+      - Jeff Smith
+      - Sophie Braimbridge
+      - Erica Jankovich
+      - Laurie Halse Anderson
+      - "Zdeněk ""Zenny"" K. Sadlon"
+      - Mary Pacios
+      - Margot Theis Raven
+      - Jeannie Brett
+      - Pamela Duncan Edwards
+      - Troy Howell
+      - Jeremy Rifkin
+      - Alan C. Weisbecker
+      - Napoleon Hill
+      - Arthur R. Pell
+      - Peter Blegvad
+      - John Keegan
+      - Dow Mossman
+      - Michael Barber
+      - R. Scott Bakker
+      - Bruce Catton
+      - Bart King
+      - Crissy Trask
+      - Lin Carter
+      - John Betancourt
+      - William Morris
+      - Lawrence Watt-Evans
+      - Michale W. Perry
+      - L. John Mason
+      - Elizabeth Davis
+      - Colin Duriez
+      - Junji Ito
+      - Sakurako Gokurakuin
+      - Terry Breverton
+      - Steven L. Layne
+      - Leon Sciaky
+      - Jeremy McHugh
+      - Lisa Whelchel
+      - Girolamo Cardano
+      - Jean Stoner
+      - Edward Lewis Wallant
+      - T. H. White
+      - Fritz Eichenberg
+      - Jessica Mitford
+      - Marc Romano
+      - Douglas Thin
+      - Charles Simic
+      - Joseph Cornell
+      - Alistair Horne
+      - Fritz Percy Reck-Malleczewen
+      - Friedrich Reck
+      - Paul Rubens
+      - Richard J. Evans
+      - Khenpo Ngawang Pelzang
+      - Ṅag-dbaṅ-dpal-bzaṅ (Mkhan-po)
+      - Ryōkan
+      - John Stevens
+      - Sharon Salzberg
+      - Jon Kabat-Zinn
+      - Kate Horsley
+      - Cheri Huber
+      - Sun-Tzu
+      - Sunzi
+      - Natalie Goldberg
+      - Brandon Mull
+      - Bruce Wilkinson
+      - Randy Alcorn
+      - Desiring God
+      - Jill Elizabeth Nelson
+      - Ravi Zacharias
+      - Mary Anna Evans
+      - Scott Zimmerman
+      - Avram Joel Spolsky
+      - Christopher Duncan
+      - Elmer Belmont Potter
+      - George Stalk
+      - Robert Lachenauer
+      - John Butman
+      - Charles P. Rubenstein
+      - Kara Lim
+      - Lee Yun Hee
+      - Haruko Iida
+      - Michael Wareham Dean
+      - Christopher Caswell
+      - Jay Kopelman
+      - Melinda Roth
+      - Geoff Emerick
+      - Howard Massey
+      - Emil Brunner
+      - Karl Barth
+      - Brandon Toropov
+      - Luke Buckles
+      - Bill P.
+      - Todd W.
+      - Sara S.
+      - Kohta Hirano
+      - Various
+      - Jan Duursema
+      - Dan Parsons
+      - Brad Anderson
+      - Tom√É¬•s Giorello
+      - Hiroki Endo
+      - Akira Yoshida
+      - Paul Lee
+      - Pat Lee
+      - Welles Hartley
+      - Doug Wheatley
+      - Chris Chuckry
+      - Junji Itō
+      - Thomas Andrews
+      - Adriana Melo
+      - Michael LaCombe
+      - Joe Corroney
+      - John Jackson Miller
+      - Brian Ching
+      - Travel Foreman
+      - Travis Charest
+      - Davide Fabbri
+      - Christian DallaVecchia
+      - David Michael Beck
+      - Matt Wagner
+      - Rich Rankin
+      - Megan McDaniel
+      - Elizabeth Dalton
+      - D. R. Lloyd
+      - Nicholas Christopher
+      - Anthony D. Pellegrini
+      - Peter K. Smith
+      - Janette K. Klingner
+      - Sharon Vaughn
+      - Alison Boardman
+      - B. K. Beckwith
+      - Niall Ferguson
+      - Khaled Hosseini
+      - Steven Johnson
+      - Stuart M. Matlins
+      - Arthur J. Magida
+      - Al Gore
+      - Scott Westerfeld
+      - Kaoru Ohashi
+      - Kei Kusunoki
+      - Clamp
+      - Minetaro Mochizuki
+      - Ernest Alfred Vizetelly
+      - Hideyuki Kikuchi
+      - Yoshitaka Amano
+      - Kevin Leahy
+      - Robert Simpson
+      - Kei Ōishi
+      - Joe Swift
+      - Sheri Gilmore
+      - Morgan Hawke
+      - Amy Goldman Koss
+      - Malvina G. Vogel
+      - Harlan Ellison
+      - John Gregory Betancourt
+      - Iain M. Banks
+      - Richard D. Nelson
+      - Yuki Shimizu
+      - Yayoi Ogawa
+      - Satosumi Takaguchi
+      - Saki Okuse
+      - Aki Shimizu
+      - Morioka Hiroyuki
+      - Fuyumi Ono
+      - Akihiro Yamada
+      - Alexander O. Smith
+      - Shelley Bradley
+      - Chris Ryall
+      - J. M. Jeffries
+      - Seressia Glass
+      - Natalie Dunbar
+      - Conner Gorry
+      - David Stanley
+      - Paul Smitz
+      - Carolyn Bain
+      - Sandra Bao
+      - Susannah Farfor
+      - Brendan Sainsbury
+      - Damien Simonis
+      - Sarah Johnstone
+      - Nicola Williams
+      - Anthony Ham
+      - James Bainbridge
+      - Andrew Bender
+      - Chris Rowthorn
+      - Martin Hughes
+      - Tom Masters
+      - Danny Palmerlee
+      - Michael Grosberg
+      - Carolyn McCarthy
+      - Ian Edginton
+      - Paco Medina
+      - Adrian Sibar
+      - Robert Crumb
+      - Laura DePuy
+      - Betty Jay
+      - Carl Plasa
+      - Ann Patchett
+      - Jane Yolen
+      - Heidi Stemple
+      - Terence Dean Brooks
+      - Jenny Hendy
+      - Peter Tallack
+      - Michel Faber
+      - Louise Welsh
+      - Leonardo Padura Fuentes
+      - Leonardo Padura
+      - Everette Beach Long
+      - John R. Hammond
+      - Elizabeth Gray
+      - John Grigsby
+      - Colin Wilson
+      - Ann Hewetson
+      - Fiona McAuslan
+      - Matthew Norman
+      - Jan Dodd
+      - Mark Lewis
+      - Ron Emmons
+      - Chris Ingham
+      - Sherri L. King
+      - Lorie O'Clare
+      - Jaci Burton
+      - Mikhail Bulgakov
+      - Hugh Aplin
+      - Jonathan Phillips
+      - Mansur Abdulin
+      - Graham McNeill
+      - Matt Keefe
+      - Peter Doggett
+      - M. A. Harvey
+      - Mike Davis
+      - Errol Flynn
+      - Alec Sillifant
+      - Daniel Postgate
+      - Suheil Bushrui
+      - James Peck
+      - Henry Fielding
+      - Charles Lamb
+      - Mary Lamb
+      - Edmond Rostand
+      - Shelley Klein
+      - Richard Brzezinski
+      - Kathryn Harrison
+      - Tracy Chevalier
+      - Colin Wiggins
+      - Robert Fitzgerald
+      - Muriel Spark
+      - Mihails Tāls
+      - Peter Robinson
+      - Cordwainer Smith
+      - John Haynes
+      - Karl Marx
+      - Friedrich Engels
+      - Ivo Andrić
+      - Jose Saramago
+      - J. Anderson Thompson
+      - Grace Metalious
+      - Jenny Wormald
+      - Paco Underhill
+      - Robert Greene
+      - Lynne Truss
+      - Rachel Lichtenstein
+      - Iain Sinclair
+      - Mohsin Hamid
+      - Ricardo Piglia
+      - Amanda Hopkinson
+      - John King
+      - Julia Wilkinson
+      - John L. Goldwater
+      - Gloria Anzaldúa
+      - Jean Nienkamp
+      - Helen McCarthy
+      - Dan Harrington
+      - Bill Robertie
+      - H. R. Giger
+      - Käthi Christen
+      - Adrienne Theimer
+      - Upton Sinclair
+      - Kathleen De Grave
+      - Gonzague Saint Bris
+      - Don Webb
+      - Stephen E. Flowers
+      - William Searle Holdsworth
+      - Mark Dawidziak
+      - Mikhail Tal
+      - Abbie Hoffman
+      - Louis Paul Priolo
+      - Molly Lee
+      - Mistress Lorelei
+      - "Lorelei Powers, Mistress"
+      - Nora Kelly
+      - Mary Gaitkill
+      - David Berman
+      - Delmore Schwartz
+      - Thomas Beller
+      - James Purdy
+      - Strawberry Saroyan
+      - Debra Garrison
+      - Edward St. Aubyn
+      - Rose Marie Beebe
+      - Robert M. Senkewicz
+      - John Diamond
+      - Ed Roberson
+      - Commander X
+      - Tim Swartz
+      - James Tiptree
+      - Peter S. Beagle
+      - Terry Moore
+      - Mary Jane Maffini
+      - Carlos Marighella
+      - Michael Hume Jackson
+      - Reinhold Messner
+      - Gillian Avery
+      - Bruce Arnold
+      - A. R. Humphreys
+      - David Scott Kastan
+      - Horace Silver
+      - Richard Freeborn
+      - Jerome K. Jerome
+      - Camellia Panjabi
+      - Penny Armstrong
+      - Sheryl Feldman
+      - Ruby K. Payne
+      - William Potter
+      - Guy W. Jones
+      - Sally Moomaw
+      - Jill Morgan
+      - Keith Donohue
+      - Alexis de Tocqueville
+      - Arthur Goldhammer
+      - Leo Bersani
+      - Lennard Zinn
+      - Elizabeth Mann
+      - Alan Witschonke
+      - Theodora Goss
+      - Stacey Szklut
+      - Lynn Balzer-Martin
+      - Elizabeth Haber
+      - Deanna Iris Sava
+      - Justin Akers Chacón
+      - Julián Cardona
+      - Ivan T. Sanderson
+      - Glenn Yeffeth
+      - Leah Wilson
+      - Raph Koster
+      - Frederick Lenz
+      - Kōji Suzuki
+      - Glynne Walley
+      - Doug Lansky
+      - Ian Edington
+      - Simon Fraser
+      - Mark Smylie
+      - Lane Smith
+      - T. C. Boyle
+      - Kelly Carr
+      - Lynnette Khalfani
+      - J. Torres
+      - Antony Johnston
+      - Andrew Dabb
+      - Les Beletsky
+      - Preston Peet
+      - Joscelyn Godwin
+      - Architecture for Humanity (Organization)
+      - Radclyffe
+      - Ali Vali
+      - Martin Millar
+      - James Hamilton-Paterson
+      - America's Test Kitchen
+      - William Hjortsberg
+      - Kitty Burns Florey
+      - Rob Thomas
+      - Henryk Sienkiewicz
+      - Mark Wigan
+      - Alison Baverstock
+      - Miguel Serrano
+      - Kingdome 19
+      - Lev N. Tolstoj
+      - Kazuko Tadano
+      - Nayantara Sahgal
+      - Sri Nisargadatta Maharaj
+      - Sudhakar S. Dikshit
+      - Helena Grice
+      - Tim Woods

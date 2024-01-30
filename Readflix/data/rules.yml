@@ -1,0 +1,19 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_imabot
+
+- rule: Reset all slots when user asks
+  steps:
+  - intent: reset
+  - action: action_reset_all_slots
+  - action: action_say_greeting

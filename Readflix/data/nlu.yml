@@ -1,0 +1,419 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: recommend_book_or_movie
+  examples: |
+    - [Book]{"entity":"category","value":"book"}.
+    - [book]{"entity":"category","value":"book"}.
+    - [books]{"entity":"category","value":"book"}.
+    - [read]{"entity":"category","value":"book"}.
+    - [Books]{"entity":"category","value":"book"}.
+    - Can you suggest a good [book]{"entity":"category","value":"book"} to read?
+    - I'm looking for a [book]{"entity":"category","value":"book"} recommendation.
+    - Any [books]{"entity":"category","value":"book"} you'd recommend?
+    - What's a great [book]{"entity":"category","value":"book"} to dive into?
+    - Got any [book]{"entity":"category","value":"book"} suggestions?
+    - I'm in the mood for a good [book]{"entity":"category","value":"book"}}.
+    - Recommend me a [book]{"entity":"category","value":"book"}, please.
+    - Any [books]{"entity":"category","value":"book"} you think I might like?
+    - Help me find a [book]{"entity":"category","value":"book"} to read.
+    - Looking for a [book]{"entity":"category","value":"book"} recommendation.
+    - Point me to a [good] book{"entity":"category","value":"book"}.
+    - Suggest a [book]{"entity":"category","value":"book"} for me.
+    - What should I [read]{"entity":"category","value":"book"} next?
+    - I want to [read]{"entity":"category","value":"book"} something interesting
+    - What [books]{"entity":"category","value":"book"} do you recommend?
+    - Got any good [book]{"entity":"category","value":"book"} recommendations?
+    - I'm open to [book]{"entity":"category","value":"book"} suggestions.
+    - [Movie]{"entity":"category","value":"movie"}
+    - [Movies]{"entity":"category","value":"movie"}.
+    - [movie]{"entity":"category","value":"movie"}
+    - [movies]{"entity":"category","value":"movie"}
+    - [watch]{"entity":"category","value":"movie"}
+    - [Watch]{"entity":"category","value":"movie"}
+    - Can you suggest a [movie]{"entity":"category","value":"movie"} to watch?
+    - I'm looking for a [movie]{"entity":"category","value":"movie"} recommendation.
+    - Any [movies]{"entity":"category","value":"movie"} you'd recommend?
+    - What's a good [movie]{"entity":"category","value":"movie"} to watch?
+    - Got any [movie]{"entity":"category","value":"movie"} suggestions?
+    - I'm in the mood for a good [movie]{"entity":"category","value":"movie"}.
+    - Recommend me a [movie]{"entity":"category","value":"movie"}, please.
+    - Any [movies]{"entity":"category","value":"movie"} you think I might like?
+    - Help me find a [movie]{"entity":"category","value":"movie"} to watch.
+    - Looking for a [movie]{"entity":"category","value":"movie"} recommendation.
+    - Suggest a [movie]{"entity":"category","value":"movie"} for me.
+    - What should I [watch]{"entity":"category","value":"movie"} tonight?
+    - What [movies]{"entity":"category","value":"movie"} do you recommend?
+    - Got any good [movie]{"entity":"category","value":"movie"} recommendations?
+    - I'm open to [movie]{"entity":"category","value":"movie"} suggestions.
+    - I'd love a [movie]{"entity":"category","value":"movie"} recommendation.
+    - I want to [watch]{"entity":"category","value":"movie"} something good.
+
+- intent: provide_book_criteria_title
+  examples: |
+    - title
+    - Title
+    - Title.
+    - title.
+    - by title.
+    - By title.
+    - by title
+    - By title
+    - Using title
+    - Using title of the book.
+    
+- intent: provide_book_criteria_author
+  examples: |
+    - author
+    - Author
+    - writer
+    - Writer
+    - By writer.
+    - Using writer.
+    - Using author
+
+- intent: provide_book_criteria_genre
+  examples: |
+    - genre
+    - by genre.
+    - By genre.
+    - using genre.
+    - genres.
+    - by genres.
+  
+
+- intent: provide_book_title
+  examples: |
+    - [Gilead](book_title)
+    - [Spider's Web](book_title)
+    - [The One Tree](book_title)
+    - [Rage of angels](book_title)
+    - [The Four Loves](book_title)
+    - [The Problem of Pain](book_title)
+    - [An Autobiography](book_title)
+    - [Empires of the Monsoon](book_title)
+    - [The Gap Into Madness](book_title)
+    - [Master of the Game](book_title)
+    - [If Tomorrow Comes](book_title)
+    - [Assassin's Apprentice](book_title)
+    - [Warhost of Vastmark](book_title)
+    - [The Once and Future King](book_title)
+    - [Murder in LaMut](book_title)
+    - [Jimmy the Hand](book_title)
+    - [Witness for the Prosecution & Selected Plays](book_title)
+    - [The Little House](book_title)
+    - [Mystical Paths](book_title)
+    - [Glittering Images](book_title)
+    - [Glamorous Powers](book_title)
+    - [The Mad Ship](book_title)
+    - [Post Captain](book_title)
+    - [The Reverse of the Medal](book_title)
+    - [Miss Marple](book_title)
+    - [The Years of Rice and Salt](book_title)
+    - [Spares](book_title)
+    - [Gravity](book_title)
+    - [The Wise Woman](book_title)
+    - [Girls' Night in](book_title)
+    - [The White Album](book_title)
+    - [The Bonesetter's Daughter](book_title)
+    - [The Lexus and the Olive Tree](book_title)
+    - ['Tis](book_title)
+    - [Ocean Star Express](book_title)
+    - [A Small Pinch of Weather](book_title)
+    - [Koko](book_title)
+    - [Tree and Leaf](book_title)
+    - [Partners in Crime](book_title)
+    - [Murder in Mesopotamia](book_title)
+    - Can you recommend something like [The Lord of the Rings](book_title)?
+    - I'd like to read something similar to [Pride and Prejudice](book_title).
+    - Have you read [Harry Potter](book_title)? What did you think?
+    - I'm thinking of reading [The Handmaid's Tale](book_title). Have you read it?
+    - Do you have any recommendations for books like [The Hunger Games](book_title)?
+    - I enjoyed "[The Book Thief](book_title)." Can you suggest something similar?
+    - I'm a fan of [To Kill a Mockingbird](book_title). Any other books you'd recommend?
+    - I'm looking for a book like ["The Great Gatsby"](book_title).
+    - Do you have any recommendations in the same vein as ["The Catcher in the Rye"](book_title)?
+    - I'm interested in books like ["1984"](book_title) Any suggestions?
+    - I'm on the hunt for a book similar to ["The Alchemist"](book_title).
+    - I'm craving a good mystery like ["And Then There Were None"](book_title).
+    - Do you have any recommendations for fantasy books like ["The Name of the Wind"](book_title)?
+    - I'm looking for a heartwarming story like ["Little Women"](book_title).
+    - I'm in the mood for a classic like ["Jane Eyre"](book_title).
+    - Do you have any recommendations for historical fiction like ["All the Light We Cannot See"](book_title)?
+    - I'm interested in a dystopian novel like [The Giver](book_title).
+    - I'm looking for a thrilling adventure like [The Martian](book_title).
+    - Do you have any recommendations for sci-fi books like [Dune](book_title)?
+    - I'm in the mood for a romance novel like ["Pride and Prejudice"](book_title).
+    - Do you have any recommendations for non-fiction books like [Sapiens](book_title)?
+    - I'm looking for a biography like [Steve Jobs](book_title).
+    - I'm interested in a self-help book like [Atomic Habits](book_title).
+    - Do you have any recommendations for memoirs like ["Becoming"](book_title)?
+
+- intent: provide_book_author
+  examples: |
+    - [Marilynne Robinson](book_author)
+    - [Charles Osborne](book_author)
+    - [Agatha Christie](book_author)
+    - [Stephen R. Donaldson](book_author)
+    - [Sidney Sheldon](book_author)
+    - [Clive Staples Lewis](book_author)
+    - [Richard Hall](book_author)
+    - [Robin Hobb](book_author)
+    - [Janny Wurts](book_author)
+    - [Terence Hanbury White](book_author)
+    - [Raymond E. Feist](book_author)
+    - [Joel Rosenberg](book_author)
+    - [S.M. Stirling](book_author)
+    - [Philippa Gregory](book_author)
+    - [Susan Howatch](book_author)
+    - [Patrick O'Brian](book_author)
+    - [Kim Stanley Robinson](book_author)
+    - [Michael Marshall Smith](book_author)
+    - [Tess Gerritsen](book_author)
+    - [Jessica Adams](book_author)
+    - [Chris Manby](book_author)
+    - [Fiona Walker](book_author)
+    - [Joan Didion](book_author)
+    - [Amy Tan](book_author)
+    - [Thomas L. Friedman](book_author)
+    - [Frank McCourt](book_author)
+    - [Mark Haddon](book_author)
+    - [Peter Sutton](book_author)
+    - [Joan Aiken](book_author)
+    - Can you recommend something by ["Stephen King"](book_author)?
+    - Do you have any books by ["J.K. Rowling"](book_author)?
+    - I'm looking for a book by ["Neil Gaiman"](book_author).
+    - Have you read anything by ["Margaret Atwood"](book_author)?
+    - What books would you suggest by ["Toni Morrison"](book_author)?
+    - I'm a fan of ["George R.R. Martin"](book_author).
+    - Any good books by ["Jane Austen"](book_author)?
+    - I'm interested in reading something by ["Ernest Hemingway"](book_author).
+    - Do you have any recommendations for books by ["Harper Lee"](book_author)?
+    - I'd like to try a book by ["John Steinbeck"](book_author).
+    - Have you read anything by ["Maya Angelou"](book_author)? Would you recommend it?
+    - I'm looking for a book by ["F. Scott Fitzgerald"](book_author). Any suggestions?
+    - Can you recommend something by ["Gabriel García Márquez"](book_author)?
+    - Do you have any books by ["J.R.R. Tolkien"](book_author)?
+    - I'm a fan of ["Charles Dickens"](book_author). Any good books to start with?
+    - Any recommendations for books by ["Emily Brontë"](book_author)?
+    - I'm interested in reading something by ["Virginia Woolf"](book_author).
+    - Do you have any books by ["Mark Twain"](book_author)?
+    - I'd like to try a book by ["Oscar Wilde"](book_author).
+    - Have you read any books by ["Kurt Vonnegut"](book_author)?
+    - I'm looking for a book by ["Alice Walker"](book_author).
+    - Do you have any books by ["Arthur Conan Doyle"](book_author)?
+    - I'm a fan of ["Agatha Christie"](book_author). Any suggestions?
+    - I'm interested in reading something by ["Jules Verne"](book_author).
+
+- intent: provide_book_genre
+  examples: |
+    - [fantasy books](book_genre)
+    - [Fantasy books](book_genre)
+    - [historical fiction books](book_genre)
+    - [science fiction books](book_genre)
+    - [romance books](book_genre)
+    - [Romance books](book_genre)
+    - [horror books](book_genre)
+    - [Horror books](book_genre)
+    - [detective books](book_genre)
+    - [thriller books](book_genre)
+    - [Thriller books](book_genre)
+    - [Literature books](book_genre)
+    - [Magic books](book_genre)
+    - [Mystery and detective stories books](book_genre)
+    - [Plays books](book_genre)
+    - [Poetry books](book_genre)
+    - [Romance books](book_genre)
+    - [Science Fiction books](book_genre)
+    - [Short Stories books](book_genre)
+    - [Young Adult books](book_genre)
+    - [fantasy book](book_genre)
+    - [Fantasy book](book_genre)
+    - [historical fiction book](book_genre)
+    - [science fiction book](book_genre)
+    - [romance book](book_genre)
+    - [Romance book](book_genre)
+    - [horror book](book_genre)
+    - [Horror book](book_genre)
+    - [detective book](book_genre)
+    - [thriller book](book_genre)
+    - [Thriller book](book_genre)
+    - [Literature book](book_genre)
+    - [Magic book](book_genre)
+    - [Mystery and detective stories book](book_genre)
+    - [Plays book](book_genre)
+    - [Poetry book](book_genre)
+    - [Romance book](book_genre)
+    - [Science Fiction book](book_genre)
+    - [Short Stories book](book_genre)
+    - [Young Adult book](book_genre)
+
+- intent: provide_movie_criteria_title
+  examples: |
+    - Name.
+    - name
+    - By name.
+    - by name.
+    - names
+    - Name
+    - name.
+
+- intent: provide_movie_criteria_director
+  examples: |
+    - director
+    - Director.
+    - using director.
+    - by director.
+    - directors.
+    - Directors.
+
+- intent: provide_movie_criteria_category
+  examples: |
+    - category
+    - Category.
+    - by category
+    - By category.
+    - using category.
+    - Using category.
+    - using categories.
+    - categories.
+
+- intent: provide_movie_title
+  examples: |
+    - [The Shawshank Redemption](movie_title)
+    - [The Godfather](movie_title)
+    - [Ramayana: The Legend of Prince Rama](movie_title)
+    - [The Chaos Class](movie_title)
+    - [The Dark Knight](movie_title)
+    - [Schindler's List](movie_title)
+    - [The Lord of the Rings: The Return of the King](movie_title)
+    - [12 Angry Men](movie_title)
+    - [The Godfather Part II](movie_title)
+    - [Mirror Game](movie_title)
+    - [Daman](movie_title)
+    - [Pulp Fiction](movie_title)
+    - [Demon Slayer: Kimetsu no Yaiba - Tsuzumi Mansion Arc](movie_title)
+    - [The Message](movie_title)
+    - [Tosun Pasa](movie_title)
+    - [The Chaos Class Failed the Class](movie_title)
+    - [Fight Club](movie_title)
+    - [The Lord of the Rings: The Fellowship of the Ring](movie_title)
+    - [Inception](movie_title)
+    - [Forrest Gump](movie_title)
+    - [The Lord of the Rings: The Two Towers](movie_title)
+    - ["The Good, the Bad and the Ugly"](movie_title)
+    - [Jai Bhim](movie_title)
+
+- intent: provide_movie_director
+  examples: |
+    - [Frank Darabont](movie_director)
+    - [Francis Ford Coppola](movie_director)
+    - [Ram Mohan](movie_director)
+    - [Yûgô Sakô](movie_director)
+    - [Koichi Saski](movie_director)
+    - [Ertem Egilmez](movie_director)
+    - [Christopher Nolan](movie_director)
+    - [Steven Spielberg](movie_director)
+    - [Peter Jackson](movie_director)
+    - [Sidney Lumet](movie_director)
+    - [Amitabh Reza Chowdhury](movie_director)
+    - [Lenka Debiprasad](movie_director)
+    - [Vishal Mourya](movie_director)
+    - [Quentin Tarantino](movie_director)
+    - [Haruo Sotozaki](movie_director)
+    - [Moustapha Akkad](movie_director)
+    - [Kartal Tibet](movie_director)
+    - [David Fincher](movie_director)
+    - [Robert Zemeckis](movie_director)
+    - [Sergio Leone](movie_director)
+    - [T.J. Gnanavel](movie_director)
+
+- intent: provide_movie_genre
+  examples: |
+    - [Action](movie_genre)
+    - [action](movie_genre)
+    - [Adventure](movie_genre)
+    - [adventure](movie_genre)
+    - [Animation](movie_genre)
+    - [animation](movie_genre)
+    - [Comedy](movie_genre)
+    - [comedy](movie_genre)
+    - [Crime](movie_genre)
+    - [crime](movie_genre)
+    - [Documentary](movie_genre)
+    - [documentary](movie_genre)
+    - [Drama](movie_genre)
+    - [drama](movie_genre)
+    - [Family](movie_genre)
+    - [family](movie_genre)
+    - [Fantasy](movie_genre)
+    - [fantasy](movie_genre)
+    - [History](movie_genre)
+    - [history](movie_genre)
+    - [Horror](movie_genre)
+    - [horror](movie_genre)
+    - [Mystery](movie_genre)
+    - [mystery](movie_genre)
+    - [Romance](movie_genre)
+    - [romance](movie_genre)
+    - [Science Fiction](movie_genre)
+    - [science fiction](movie_genre)
+    - [Thriller](movie_genre)
+    - [thriller](movie_genre)
+    - [War](movie_genre)
+    - [war](movie_genre)
+    - [Western](movie_genre)
+    - [western](movie_genre)
+
+- intent: more_recommendations
+  examples: |
+    - more
+    - More
+    - more recommendations.
+    - More recommendations.
+    - I want more recommendations.
+    - i want more recommendations.
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: reset
+  examples: |
+    - reset
+    - Reset
+    - reset.
+    - Reset.
+    - I want to reset.

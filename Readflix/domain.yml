@@ -1,0 +1,120 @@
+---
+version: "3.1"
+intents:
+  - greet
+  - goodbye
+  - recommend_book_or_movie
+  - provide_book_criteria_title
+  - provide_book_title
+  - provide_book_criteria_author
+  - provide_book_author
+  - provide_book_criteria_genre
+  - provide_book_genre
+  - provide_movie_criteria_title
+  - provide_movie_title
+  - provide_movie_criteria_director
+  - provide_movie_director
+  - provide_movie_criteria_category
+  - provide_movie_genre
+  - more_recommendations
+  - bot_challenge
+  - reset
+entities:
+  - category:
+      type: text
+      role: category
+      auto_fill: false
+  - book_title:
+      extraction: CRFEntityExtractor
+      lookup: book_title
+  - book_author:
+      extraction: CRFEntityExtractor
+      lookup: book_author
+  - book_genre:
+      extraction: CRFEntityExtractor
+  - movie_title:
+      extraction: CRFEntityExtractor
+      lookup: movie_title
+  - movie_director:
+      extraction: CRFEntityExtractor
+      lookup: movie_director
+  - movie_genre:
+      extraction: CRFEntityExtractor
+  - total_movie_recommendations
+  - total_book_recommendations
+slots:
+  category:
+    type: categorical
+    mappings:
+      - type: from_entity
+        entity: category
+    values:
+      - book
+      - movie
+  book_title:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: book_title
+  book_author:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: book_author
+  book_genre:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: book_genre
+  movie_title:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: movie_title
+  movie_director:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: movie_director
+  movie_genre:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: movie_genre
+  total_movie_recommendations:
+    type: any
+    initial_value: 0
+    mappings:
+      - type: custom
+  total_book_recommendations:
+    type: any
+    initial_value: 0
+    mappings:
+      - type: custom
+actions:
+  - action_say_greeting
+  - action_category_prompt
+  - action_book_recommendation
+  - action_movie_recommendation
+  - action_more_recommendations
+  - action_reset_all_slots
+responses:
+  utter_goodbye:
+    - text: It was fun. Enjoy your recommendations
+  utter_imabot:
+    - text: I am ReadFlix your personal recommender bot.
+  utter_ask_book_title:
+    - text: Sure! Do you have a title in mind?
+  utter_ask_book_author:
+    - text: Of course, which author?
+  utter_ask_book_genre:
+    - text: Of course, from which genre? Please add ' book', without quotes, after the genre.
+  utter_ask_movie_title:
+    - text: Roger. What is the name of the movie?
+  utter_ask_movie_director:
+    - text: Any particular director in mind?
+  utter_ask_movie_category:
+    - text: Ok. From which category do you want the recommendations?
+session_config:
+  session_expiration_time: 600
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readflix</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap">
+
+<body>
+
+    <section>
+
+        <nav>
+
+            <div class="logo">
+                <img src="/static/image/readflix_logo.jpg" alt="">
+            </div>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+
+            </ul>
+            <div class="toggle" onclick="toggleDarkMode()">
+                <i class="fas fa-moon toggle-icon"></i>
+                <i class="fas fa-sun toggle-icon"></i>
+                <div class="toggle-ball"></div>
+            </div>
+
+        </nav>
+
+        <div class="main">
+
+            <div class="main_tag">
+                <h1>READFLIX<br><span>Movies and Book Recommender</span></h1>
+
+                <p class="main-desc">
+                    Readflix, your personal chatbot is a capable assistant that helps you find your next
+                    engrossing read or your next cinematic escape. From swashbuckling fantasy to tear-jerking drama,
+                    swoon-worthy romance to educational non-fiction, Readflix has it all. The more you interact with
+                    Readflix, the more it learns your preferences, tailoring recommendations just for you. Readflix will
+                    help you find exactly the
+                    book or movie you're looking for.
+                </p>
+
+            </div>
+
+            <div class="main_img">
+                <img src="/static/image/READFLIX.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div>
+        <div id="top">
+            <div id="top-movie-content">
+                <img id="top-movie-img" src="/static/image/m1.jpeg" alt="">
+                <div><button id="top-movie-button">WATCH</button></div>
+                <h3>OPPENHEIMER</h3>
+                <p id="top-movie-desc">
+                    In Nolan's 2023 bio-thriller, Cillian Murphy ignites as J. Robert Oppenheimer, the enigmatic
+                    physicist who led the Manhattan Project. Amidst the fury of WWII, he wields the atom's power,
+                    forever altering history. But in its wake, whispers of ethical turmoil and personal demons follow,
+                    casting Oppenheimer's genius in a haunting shadow. "Oppenheimer" delves into the cost of progress,
+                    the burden of knowledge, and the man who became synonymous with the dawn of the atomic age.
+                </p>
+            </div>
+
+            <div id="top-book-content">
+                <img id="top-book-img" src="/static/image/b1.jpg" alt="">
+                <div><button id="top-book-button">READ</button></div>
+                <h3>THE BEE STING</h3>
+                <p id="top-book-desc">
+                    In Paul Murray's sting-like tale, "The Bee Sting," the once-grand Barnes family crumbles in
+                    post-crash Ireland. Betrayal's venom and financial ruin cast a dark shadow, yet amidst secrets,
+                    blackmail, and heartbreak, flickering hope remains. Murray masterfully blends tragedy and humor,
+                    revealing the Barnes's unexpected resilience as they cling to the fragile thread of love, proving
+                    that even amidst the wreckage, hope's tender bloom defies the harshest of stings.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="movie-container">
+        <h2 class="movie-list-title">
+            BEST MOVIES OF 2023
+        </h2>
+        <div class="movie-list">
+            <div class="movie-list-item">
+                <img class="movie-list-item-image" src="/static/image/m2.jpeg" alt="">
+                <span class="movie-list-item-title">Poor Things</span>
+                <button class="movie-list-item-button">WATCH</button>
+            </div>
+            <div class="movie-list-item">
+                <img class="movie-list-item-image" src="/static/image/m3.jpg" alt="">
+                <span class="movie-list-item-title">Guardians of the Galaxy Vol. 3</span>
+                <button class="movie-list-item-button">WATCH</button>
+            </div>
+            <div class="movie-list-item">
+                <img class="movie-list-item-image" src="/static/image/m4.jpg" alt="">
+                <span class="movie-list-item-title">Past Lives</span>
+                <button class="movie-list-item-button">WATCH</button>
+            </div>
+            <div class="movie-list-item">
+                <img class="movie-list-item-image" src="/static/image/m5.jpg" alt="">
+                <span class="movie-list-item-title">Barbie</span>
+                <button class="movie-list-item-button">WATCH</button>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="book-container">
+        <h2 class="book-list-title">
+            BEST BOOKS OF 2023
+        </h2>
+        <div class="book-list">
+            <div class="book-list-item">
+                <img class="book-list-item-image" src="/static/image/b2.png" alt="">
+                <span class="book-list-item-title">Biography of X by Catherine Lacey</span>
+                <button class="book-list-item-button">READ</button>
+            </div>
+            <div class="book-list-item">
+                <img class="book-list-item-image" src="/static/image/b3.png" alt="">
+                <span class="book-list-item-title">Birnam Wood by Eleanor Catton</span>
+                <button class="book-list-item-button">READ</button>
+            </div>
+            <div class="book-list-item">
+                <img class="book-list-item-image" src="/static/image/b4.jpg" alt="">
+                <span class="book-list-item-title">The Country of the Blind by Andrew Leland</span>
+                <button class="book-list-item-button">READ</button>
+            </div>
+            <div class="book-list-item">
+                <img class="book-list-item-image" src="/static/image/b5.png" alt="">
+                <span class="book-list-item-title">A Day in the Life of Abed Salama by Nathan Thrall</span>
+                <button class="book-list-item-button">READ</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">ReadFlix</button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i class="fa-solid fa-thumbs-up chat-icon" onclick="tumpsupButton()"></i>
+                                <i class="fa-solid fa-paper-plane chat-icon" onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="square">
+            <div class="square_1">
+                <div class="heading">Links</div>
+                <ul class="l-list">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="square_2">
+                <div class="heading">Contact</div>
+                <ul class="contact">
+                    <li><i class="fa-solid fa-house"></i> Your Address</li>
+                    <li><i class="fa-solid fa-envelope"></i> readflix@gmail.com</li>
+                    <li><i class="fa-solid fa-envelope"></i> +4545 4544545</li>
+                </ul>
+            </div>
+        </div>
+
+        <ul class="social-media">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+
+        <div class="copy">© Readflix 2024</div>
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/static/js/chat.js"></script>
+<script src="/static/js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>

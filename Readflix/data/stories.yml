@@ -1,0 +1,131 @@
+version: "3.1"
+
+stories:
+
+## Welcome story
+- story: welcome
+  steps:
+    - intent: greet
+    - action: action_say_greeting
+    - intent: recommend_book_or_movie
+    - action: action_category_prompt
+    - or:
+      - slot_was_set:
+        - category: book
+      - slot_was_set:
+        - category: movie
+    - checkpoint: category_selected
+
+## Book recommendation stories
+- story: book_by_title
+  steps:
+    - checkpoint: category_selected
+    - intent: provide_book_criteria_title
+    - action: utter_ask_book_title
+    - intent: provide_book_title
+    - action: action_book_recommendation
+
+- story: book_by_author
+  steps:
+    - checkpoint: category_selected
+    - intent: provide_book_criteria_author
+    - action: utter_ask_book_author
+    - intent: provide_book_author
+    - action: action_book_recommendation
+
+- story: book_by_genre
+  steps:
+    - checkpoint: category_selected
+    - intent: provide_book_criteria_genre
+    - action: utter_ask_book_genre
+    - intent: provide_book_genre
+    - action: action_book_recommendation
+
+## Movie recommendation stories
+- story: movie_by_title
+  steps:
+    - checkpoint: category_selected
+    - intent: provide_movie_criteria_title
+    - action: utter_ask_movie_title
+    - intent: provide_movie_title
+    - action: action_movie_recommendation
+
+- story: movie_by_director
+  steps:
+    - checkpoint: category_selected
+    - intent: provide_movie_criteria_director
+    - action: utter_ask_movie_director
+    - intent: provide_movie_director
+    - action: action_movie_recommendation
+
+- story: movie_by_genre
+  steps:
+    - checkpoint: category_selected
+    - intent: provide_movie_criteria_category
+    - action: utter_ask_movie_category
+    - intent: provide_movie_genre
+    - action: action_movie_recommendation
+
+### Change category stories
+#- story: change_to_books
+#  steps:
+#    - intent: change_choice_to_books
+#      entities:
+#        - category: book
+#    - slot_was_set:
+#      - category: book
+#    - action: action_category_prompt
+#    - checkpoint: category_selected
+#
+#- story: change_to_movies
+#  steps:
+#    - intent: change_choice_to_movies
+#      entities:
+#        - category: movie
+#    - slot_was_set:
+#      - category: movie
+#    - action: action_category_prompt
+#    - checkpoint: category_selected
+
+## More recommendations story
+- story: more_recommendations
+  steps:
+    - intent: more_recommendations
+    - action: action_more_recommendations
+
+## Goodbye story
+- story: goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+
+#- story: movie_by_title
+#  steps:
+#    - checkpoint: category_selected
+#    - intent: provide_movie_title
+#      entities:
+#        - movie_title: "{entity_type: TITLE}"
+#    - slot_was_set:
+#      - movie_title: "{entity_type: TITLE}"
+#    - action: action_movie_recommendation
+#
+#- story: movie_by_director
+#  steps:
+#    - checkpoint: category_selected
+#    - intent: provide_movie_director
+#      entities:
+#        - movie_director: "{entity_type: DIRECTOR}"
+#    - slot_was_set:
+#      - movie_director: "{entity_type: DIRECTOR}"
+#    - action: action_movie_recommendation
+#
+#- story: movie_by_genre
+#  steps:
+#    - checkpoint: category_selected
+#    - intent: provide_movie_genre
+#      entities:
+#        - movie_genre: "{entity_type: GENRE}"
+#    - slot_was_set:
+#      - movie_genre: "{entity_type: GENRE}"
+#    - action: action_movie_recommendation
